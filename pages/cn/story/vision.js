@@ -173,21 +173,16 @@ export default () => {
                   <ul className="A2000">
                     <li className="li_st1">
                       <dl>
-                        <dt>Our business objectives</dt>
+                        <dt>事业目标</dt>
                         <dd>
                           <ul>
+                            <li>幼儿·儿童 放心零食 专门企业</li>
                             <li>
-                              Safe food production company for infants and
-                              children
+                              活用地域资源开发有竞争力的产品以及生产和流通
                             </li>
                             <li>
-                              Product development utilizing local resources and
-                              competitive production and distribution
-                            </li>
-                            <li>
-                              Realizing new job creation through promoting
-                              exports and implementing relief activities for
-                              domestic and international children
+                              通过出口的活性化, 创造良好的工作岗位,
+                              实现国内外儿童救护援助
                             </li>
                           </ul>
                         </dd>
@@ -195,58 +190,37 @@ export default () => {
                     </li>
                     <li className="li_st2">
                       <dl>
-                        <dt>Our business objectives</dt>
+                        <dt>事业内容</dt>
                         <dd>
                           <ul>
                             <li className="nth_left bg1">
                               <dl>
-                                <dt>
-                                  Safe food production for infants and children
-                                </dt>
-                                <dd>
-                                  Merchandising and commercialization, utilizing
-                                  local resources
-                                </dd>
-                                <dd>Prompt and continuous R &amp; D</dd>
-                                <dd>Trend leader design differentiation</dd>
+                                <dt>幼儿·儿童 放心零食</dt>
+                                <dd>结合地域资源的商品化</dd>
+                                <dd>快速的持续性的 R &amp; D</dd>
+                                <dd>主导趋势设计的差别化</dd>
                               </dl>
                             </li>
                             <li className="nth_right bg2">
                               <dl>
-                                <dt>
-                                  Utilizing local resources for food production
-                                </dt>
-                                <dd>
-                                  Utilizing 9 major food clusters in the
-                                  province
-                                </dd>
-                                <dd>
-                                  Creating high value through utilizing
-                                  materials{" "}
-                                </dd>
-                                <dd>Developing high-end products</dd>
+                                <dt>地域资源食品的素材化</dt>
+                                <dd>省内9大食品群重点活用</dd>
+                                <dd>通过素材化创造高产值 </dd>
+                                <dd>产品的高级化</dd>
                               </dl>
                             </li>
                             <li className="nth_left nth_line bg3">
                               <dl>
-                                <dt>Domestic and international distribution</dt>
-                                <dd>
-                                  Ensuring distribution channels such as duty
-                                  free shops
-                                </dd>
-                                <dd>Online marketing B2C</dd>
+                                <dt>国内外流通</dt>
+                                <dd>掌控免税店等固定的流通网</dd>
+                                <dd>网上营销 B2C</dd>
                               </dl>
                             </li>
                             <li className="nth_right nth_line bg4">
                               <dl>
-                                <dt>Exports</dt>
-                                <dd>
-                                  Supplying product through local buyers based
-                                  on the distribution channel{" "}
-                                </dd>
-                                <dd>
-                                  Operating trade fairs and product promotions
-                                </dd>
+                                <dt>海外出口</dt>
+                                <dd>通过大型进口商的流通渠道为中心供货 </dd>
+                                <dd>运营专门的博览会和进行产品推销</dd>
                               </dl>
                             </li>
                           </ul>

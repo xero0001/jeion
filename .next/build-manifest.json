@@ -4,6 +4,10 @@
     "static/development/dll/dll_cc672af841a34c4c2e0f.js.map"
   ],
   "pages": {
+    "/": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -16,27 +20,19 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/cn": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/cn/contact/contact": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/cn/contact/notice": [
+    "/cn/story/vision": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/cn/products/cheesecookies": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/cn/story/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/contact/contact": [
+    "/story/vision": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

@@ -256,10 +256,10 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A2000	.nth_right														{ float:right; width:50%; height:190px; border-left:1px dashed #dfdfdf;}
 .A2000	.nth_right	 dl													{ float:left; width:55%; padding-left:30px;}
 .A2000	.nth_line															{ border-top:1px dashed #dfdfdf; padding-top:3%;}
-.A2000	.bg1																{ background:url(../img/contents/A2000_img1.jpg) right -5px no-repeat;}
-.A2000	.bg2																{ background:url(../img/contents/A2000_img2.jpg) right -5px  no-repeat;}
-.A2000	.bg3																{ background:url(../img/contents/A2000_img3.jpg) right 20px  no-repeat;}
-.A2000	.bg4																{ background:url(../img/contents/A2000_img4.jpg) right 35px  no-repeat;}
+.A2000	.bg1																{ background:url(${A2000Img1}) right -5px no-repeat;}
+.A2000	.bg2																{ background:url(${A2000Img2}) right -5px  no-repeat;}
+.A2000	.bg3																{ background:url(${A2000Img3}) right 20px  no-repeat;}
+.A2000	.bg4																{ background:url(${A2000Img4}) right 35px  no-repeat;}
 
 .A3000	dl	dt																	{ padding-bottom:7%;}
 .A3000	dd	p																	{ padding-bottom:5%;}
