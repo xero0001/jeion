@@ -9,8 +9,11 @@ import GlobalStyles from "../components/styles/GlobalStyles";
 
 import Menu from "../components/Menu";
 import CNMenu from "../components/cn/Menu";
+import KRMenu from "../components/kr/Menu";
+
 import Footer from "../components/Footer";
 import CNFooter from "../components/cn/Footer";
+import KRFooter from "../components/kr/Footer";
 
 import Favicon from "../public/images/favicon.ico";
 
@@ -19,6 +22,8 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     const jssplit = this.props.router.route.split("/");
     const isChinese = jssplit[1] === "cn";
+    const isKorean = jssplit[1] === "kr";
+    const isEnglish = !(isChinese || isKorean);
     return (
       <div id="Mainallbg">
         <GlobalStyles />
@@ -32,24 +37,27 @@ class MyApp extends App {
             rel="stylesheet"
           />
           <link
-            href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900|Noto+Serif+KR:400,500,700&display=swap&subset=korean"
             rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
           />
           <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css"
           />
           <link rel="shortcut icon" type="image/x-icon" href={Favicon} />
         </Head>
         <header>
-          {!isChinese && <Menu />}
+          {isEnglish && <Menu />}
           {isChinese && <CNMenu />}
+          {isKorean && <KRMenu />}
         </header>
         <main>
           <Component {...pageProps} />
         </main>
-        {!isChinese && <Footer />}
+        {isEnglish && <Footer />}
         {isChinese && <CNFooter />}
+        {isKorean && <KRFooter />}
       </div>
     );
   }

@@ -1,17 +1,17 @@
 import tw from "tailwind.macro";
 import { Global, css } from "@emotion/core";
 
-import MainBg1 from "../../public/images/mainbg_01.jpg";
+import MainBg1 from "../../../public/images/mainbg_01.jpg";
 
-import Section1Bg1 from "../../public/images/section1_bg1.jpg";
-import Section1Bg2 from "../../public/images/section1_bg2.jpg";
-import Section1Bg3 from "../../public/images/section1_bg3.jpg";
-import Section1Bg4 from "../../public/images/section1_bg4.jpg";
+import Section1Bg1 from "../../../public/images/section1_bg1.jpg";
+import Section1Bg2 from "../../../public/images/section1_bg2.jpg";
+import Section1Bg3 from "../../../public/images/section1_bg3.jpg";
+import Section1Bg4 from "../../../public/images/section1_bg4.jpg";
 
-import Line from "../../public/images/line.gif";
+import Line from "../../../public/images/line.gif";
 
-import BtnDot2 from "../../public/images/btn_dot2.png";
-import BtnArrow from "../../public/images/btn_arrow.gif";
+import BtnDot2 from "../../../public/images/btn_dot2.png";
+import BtnArrow from "../../../public/images/btn_arrow.gif";
 
 const StyleM = () => (
   <Global
@@ -25,7 +25,7 @@ const StyleM = () => (
       font-size:15px;
       // overflow-y:scroll;
       // overflow-x:hidden;
-      font-family:"Noto Sans";
+      font-family:"NanumSquare", "Noto Sans",sans-serif;
       line-height: 1.1;
     }
     
@@ -37,6 +37,9 @@ const StyleM = () => (
       border-color: initial;
       border-image: initial;
     }
+
+    #sec_title{font-size:30px; line-height:38px; color:rgb(90,80,70); background-color:white;}
+    #sec_title span{background-color:white; padding:8px;}
     
     img										{ margin:0; border:0; vertical-align:top;}
     div, dl, span							{ margin:0; padding:0; border:0; }
@@ -65,6 +68,21 @@ const StyleM = () => (
     .skip:hover,
     .skip:active,
     .skip:focus								{ width:100%; height:auto; margin:0; padding:5px 0; text-indent:10px; font-weight:bold; font-size:12px; color:#333;  line-height:1; text-decoration:none !important;}
+
+    #main_subtitle {
+      font-size:18px;
+      padding-bottom:15px;
+      color: #282828;
+    }
+
+    .main_padding {
+      margin-top:16px;
+    }
+
+    #menu_notice {
+      font-size:20px;
+      color:rgb(100,100,100);
+    }
 
 #Mainallbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}
 #Mainallbg	 .container					{ position:relative; width:1000px; margin:0 auto;}
@@ -183,9 +201,10 @@ const StyleM = () => (
 #MainContents	#Section2	dl	dt										{ width:100%; height:auto; margin-bottom:7%; text-align:center; background:url(${Line}) left center repeat-x;}
 #MainContents	#Section2	dl	dd	ul	li							{ float:left; width:33.3333%; text-align:center;}
 #MainContents	#Section2	dl	dd	ul	li	p						{ padding-bottom:6%;}
+#MainContents	#Section2	dl	dd	ul	li	p   img			{ width:90%; }
 #MainContents	#Section2	dl	dd	ul	li	dl						{ width:100%; text-align:center;}
 #MainContents	#Section2	dl	dd	ul	li	dl	dt					{ height:30px; margin:0; background:none;}
-#MainContents	#Section2	dl	dd	ul	li	dl	dt	 span		{ display:none;}
+#MainContents	#Section2	dl	dd	ul	li	dl	dt	 span		{ font-size: 19px;}
 #MainContents	#Section2	.btn										{ font-size:12px; letter-spacing:0; color:#3D3D3D; font-weight:bold; border:1px solid #ccc; padding:1.5% 8% 1.5% 6%; margin-top:1%; display:inline-block; background:url(${BtnArrow}) right center no-repeat;}
 
 #MainContents	#Section3												{ position:relative; float:left; width:100%;}
@@ -214,7 +233,7 @@ const StyleM = () => (
 
 
 #Footer																										{ position:relative; float:left; width:100%; height:350px; text-align:center; margin-top:80px; background-color:#2A2A2A;}
-#Footer.cn {background-color:#262626};
+#Footer.cn {background-color:#2A2A2A};
 #Footer    #Copyright																					{ position:relative; width:1000px; margin:0 auto; text-align:left;}
 #Footer    #Copyright  .copylogo																	{ position:relative; float:left; margin:15px 20px 0 0; }
 #Footer    #Copyright  .copyrights1																{ position:relative; float:left; margin-top:20px;}
@@ -225,7 +244,10 @@ const StyleM = () => (
 #Footer    #Copyright	.copybox	.bottommenu	ul										{ position:relative; float:left; width:100%;}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li									{ position:relative; float:left; margin-right:40px;}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dt							{ padding-bottom:15px;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dt  a						{ font-size: 14px; font-weight:900; color:rgb(120,120,120);}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd						{ margin-bottom:7px; line-height:0;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd  a					{ font-size:13px; line-height: 15px; font-weight:700;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd  a:hover					{ color:rgb(96,96,96);}
 #Footer    #Copyright	.copybox	.bottommap												{ position:relative; float:right; width:490px; height:148px; margin-top:35px; }
 #Footer    #Copyright  .copybox	.bottommap	.ad1										{ position:relative; float:left; margin-top:10px;}
 #Footer    #Copyright  .copybox	.bottommap	.ad2										{ display:none;}
@@ -239,6 +261,8 @@ const StyleM = () => (
 
 
 @media all and (max-width:800px) {
+#sec_title{font-size:20px; line-height:24px;}
+
 #Mainallbg																			{ width:100%; margin:0 auto;}
 #Mainallbg	 .container															{ position:relative; width:450px; margin:0 auto;}
 #Mainallbg	#Mainheader														{ width:100%; height:55px; border:0;}

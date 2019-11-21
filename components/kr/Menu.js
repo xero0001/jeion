@@ -11,15 +11,15 @@ import VersionLaImg from "../../public/images/version_la.gif";
 import VersionEnImg from "../../public/images/version_en.gif";
 import VersionChImg from "../../public/images/version_ch.gif";
 
-import MenuAImg from "../../public/images/cn/menu_A0000.gif";
-import MenuBImg from "../../public/images/cn/menu_B0000.gif";
-import MenuCImg from "../../public/images/cn/menu_C0000.gif";
+import MenuAImg from "../../public/images/menu_A0000.gif";
+import MenuBImg from "../../public/images/menu_B0000.gif";
+import MenuCImg from "../../public/images/menu_C0000.gif";
 
-import MenuAEImg from "../../public/images/cn/menu_A0000e.gif";
-import MenuBEImg from "../../public/images/cn/menu_B0000e.gif";
-import MenuCEImg from "../../public/images/cn/menu_C0000e.gif";
+import MenuAEImg from "../../public/images/menu_A0000e.gif";
+import MenuBEImg from "../../public/images/menu_B0000e.gif";
+import MenuCEImg from "../../public/images/menu_C0000e.gif";
 
-import Section3SubImg from "../../public/images/cn/section3_subject.gif";
+import Section3SubImg from "../../public/images/section3_subject.gif";
 
 import TextBgAImg from "../../public/images/textbg_A.png";
 import TextBgBImg from "../../public/images/textbg_B.png";
@@ -51,7 +51,7 @@ export default () => {
         <div id="headerbox">
           <h2>LOGO</h2>
           <div className="logo">
-            <Link href="/cn">
+            <Link href="/kr">
               <a title="Go to Main">
                 <img src={LogoImg} width="115" height="55" alt="JEION LOGO" />
               </a>
@@ -132,22 +132,17 @@ export default () => {
             <h2>MENU</h2>
             <ul>
               <li className="gnb1">
-                <Link href="/cn/story/about">
+                <Link href="/kr/story/about">
                   <a title="Our Story 메뉴로 이동">
-                    <img
-                      src={menuA}
+                    <span
                       onMouseEnter={() => {
-                        setMenuA(MenuAEImg);
                         setMenuAClass("");
                         setMenuBClass("sub");
                         setMenuCClass("sub");
                       }}
-                      onMouseOut={() => {
-                        setMenuA(MenuAImg);
-                      }}
-                      alt="Our Story"
-                      className="png24"
-                    />
+                    >
+                      기업소개
+                    </span>
                   </a>
                 </Link>
                 <div className={menuAClass}>
@@ -162,9 +157,7 @@ export default () => {
                     <ul>
                       <li className="notice">
                         <dl>
-                          <dt>
-                            <img src={Section3SubImg} />
-                          </dt>
+                          <dt id="menu_notice">공지사항</dt>
                           <dd>
                             <dl>
                               <dt>
@@ -188,41 +181,35 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/cn/story/about">
-                              <a title="About J:on 메뉴로 이동">
-                                关于我们智益安
-                              </a>
+                            <Link href="/kr/story/about">
+                              <a title="About J:on 메뉴로 이동">제이온소개</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/story/vision">
-                              <a title="Our Vision 메뉴로 이동">
-                                我们的未来展望
-                              </a>
+                            <Link href="/kr/story/vision">
+                              <a title="Our Vision 메뉴로 이동">비전</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/story/message">
-                              <a title="CEO's Message 메뉴로 이동">CEO的心声</a>
+                            <Link href="/kr/story/message">
+                              <a title="CEO's Message 메뉴로 이동">CEO인사말</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/story/philosophy">
+                            <Link href="/kr/story/philosophy">
                               <a title="Management Philosophy 메뉴로 이동">
-                                经营理念
+                                경영이념
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/story/history">
-                              <a title="Our History 메뉴로 이동">
-                                我们的发展史
-                              </a>
+                            <Link href="/kr/story/history">
+                              <a title="Our History 메뉴로 이동">회사연혁</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/story/location">
-                              <a title="Location 메뉴로 이동">访问我们</a>
+                            <Link href="/kr/story/location">
+                              <a title="Location 메뉴로 이동">찾아오시는길</a>
                             </Link>
                           </li>
                         </ul>
@@ -230,8 +217,8 @@ export default () => {
                       <li className="info">
                         <img src={TextBgAImg} />
                         <p>
-                          (株)智益安秉承着 妈妈和宝宝需要的所有的可能性 的理念,
-                          为所有的妈妈们创造最高的价值而努力的公司
+                          제이온은 여러분께 맛있는 제품을 제공해드리기 위해
+                          최선을 다해 엄선된 재료만을 사용합니다.
                         </p>
                       </li>
                     </ul>
@@ -239,22 +226,18 @@ export default () => {
                 </div>
               </li>
               <li className="gnb2">
-                <Link href="/cn/products/cookies">
+                <Link href="/kr/products/noodles">
                   <a title="Our Products 메뉴로 이동">
-                    <img
-                      src={menuB}
+                    {" "}
+                    <span
                       onMouseEnter={() => {
-                        setMenuB(MenuBEImg);
                         setMenuAClass("sub");
                         setMenuBClass("");
                         setMenuCClass("sub");
                       }}
-                      onMouseOut={() => {
-                        setMenuB(MenuBImg);
-                      }}
-                      alt="Our Products"
-                      className="png24"
-                    />
+                    >
+                      제품소개
+                    </span>
                   </a>
                 </Link>
                 <div className={menuBClass}>
@@ -269,9 +252,7 @@ export default () => {
                     <ul>
                       <li className="notice">
                         <dl>
-                          <dt>
-                            <img src={Section3SubImg} />
-                          </dt>
+                          <dt id="menu_notice">공지사항</dt>
                           <dd>
                             <dl>
                               <dt>
@@ -295,8 +276,33 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/cn/products/cookies">
-                              <a title="Cookies 메뉴로 이동">饼干</a>
+                            <Link href="/kr/products/noodles">
+                              <a title="Noodles 메뉴로 이동">유아국수</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/kr/products/yogurt">
+                              <a title="Yogurt 메뉴로 이동">요거트큐브</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/kr/products/babyfood">
+                              <a title="Yogurt 메뉴로 이동">쌀이유식</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/kr/products/kimcook">
+                              <a title="Yogurt 메뉴로 이동">김쿡</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/kr/products/pasta">
+                              <a title="Yogurt 메뉴로 이동">쌀파스타</a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/kr/products/bagelschip">
+                              <a title="Yogurt 메뉴로 이동">베이글칩</a>
                             </Link>
                           </li>
                         </ul>
@@ -304,8 +310,8 @@ export default () => {
                       <li className="info">
                         <img src={TextBgBImg} />
                         <p>
-                          (株)智益安秉承着 妈妈和宝宝需要的所有的可能性 的理念,
-                          为所有的妈妈们创造最高的价值而努力的公司
+                          제이온은 여러분께 맛있는 제품을 제공해드리기 위해
+                          최선을 다해 엄선된 재료만을 사용합니다.
                         </p>
                       </li>
                     </ul>
@@ -313,22 +319,17 @@ export default () => {
                 </div>
               </li>
               <li className="gnb3">
-                <Link href="/cn/contact/notice">
+                <Link href="/kr/contact/notice">
                   <a title="Contact Us 메뉴로 이동">
-                    <img
-                      src={menuC}
+                    <span
                       onMouseEnter={() => {
-                        setMenuC(MenuCEImg);
                         setMenuAClass("sub");
                         setMenuBClass("sub");
                         setMenuCClass("");
                       }}
-                      onMouseOut={() => {
-                        setMenuC(MenuCImg);
-                      }}
-                      alt="Contact Us"
-                      className="png24"
-                    />
+                    >
+                      고객문의
+                    </span>
                   </a>
                 </Link>
                 <div className={menuCClass}>
@@ -343,9 +344,8 @@ export default () => {
                     <ul>
                       <li className="notice">
                         <dl>
-                          <dt>
-                            <img src={Section3SubImg} />
-                          </dt>
+                          <dt id="menu_notice">공지사항</dt>
+
                           <dd>
                             <dl>
                               <dt>
@@ -369,13 +369,13 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/cn/contact/notice">
-                              <a title="Notice 메뉴로 이동">公告事项</a>
+                            <Link href="/kr/contact/notice">
+                              <a title="Notice 메뉴로 이동">공지사항</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/cn/contact/contact">
-                              <a title="Contact Us  메뉴로 이동">联系我们</a>
+                            <Link href="/kr/contact/contact">
+                              <a title="Contact Us  메뉴로 이동">고객문의</a>
                             </Link>
                           </li>
                         </ul>
@@ -383,8 +383,8 @@ export default () => {
                       <li className="info">
                         <img src={TextBgCImg} />
                         <p>
-                          (株)智益安秉承着 妈妈和宝宝需要的所有的可能性 的理念,
-                          为所有的妈妈们创造最高的价值而努力的公司
+                          We are committed to using the best ingredients to give
+                          you the great tasting products.
                         </p>
                       </li>
                     </ul>
