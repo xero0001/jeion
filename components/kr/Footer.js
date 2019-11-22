@@ -93,7 +93,7 @@ export default () => {
                 <li>
                   <dl>
                     <dt>
-                      <Link href="/kr/products/cookies">
+                      <Link href="/kr/products/noodles">
                         <a title="Go to Our Products">제품소개 </a>
                       </Link>
                     </dt>
