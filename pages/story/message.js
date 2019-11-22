@@ -172,15 +172,9 @@ export default () => {
 
                 <div className="contentsbox">
                   <div className="A3000">
-                    <div className="photo left_wd45">
-                      <img src={A3000Photo} alt="제이온 CEO 사진" />
-                    </div>
-                    <dl className="txtbox right_wd50">
-                      <dt>
-                        <img
-                          src={A3000Title}
-                          alt="Every possible need for mothers and children"
-                        />
+                    <dl className="txtbox">
+                      <dt id="A3000_dt">
+                        Every possible need for mothers and children
                       </dt>
                       <dd>
                         <p>

@@ -69,7 +69,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 
 
-
+#A3000_dt { font-size: 32px; font-weight:500;}
 #Suballbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}
 #Suballbg	 .container					{ position:relative; width:1000px; margin:0 auto;}
 
@@ -384,6 +384,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 
 @media all and (max-width:800px) {
+	#A3000_dt { font-size: 22px; font-weight:500;}
+	
 	#Suballbg																			{ width:100%; margin:0 auto;}
 	#Suballbg	 .container															{ width:400px; margin:0 auto;}
 	#Suballbg	#Mainheader														{ width:100%; height:55px; border:0;}

@@ -296,9 +296,7 @@ const Example = () => (
 
               <dd className="Notice">
                 <dl>
-                  <dt>
-                    <img src={Section3Sub} alt="News &amp; Notice" />
-                  </dt>
+                  <dt id="menu_notice">공지사항</dt>
                   <dd>
                     <ul>
                       <li>

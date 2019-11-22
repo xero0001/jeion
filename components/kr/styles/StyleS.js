@@ -388,6 +388,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 
 @media all and (max-width:800px) {
+	#A3000_dt { font-size: 22px; font-weight:500;}
 	.A5000 li dl dt{
 		font-size:20px;
 	}

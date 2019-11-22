@@ -81,7 +81,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Mainallbg	#Mainheader	#headerbox	 #language	dl	dd	ul	li											{ position:relative; float:left; width:134px; height:26px;  background-color:#fff; border-bottom:1px solid #DFDFDF;}
 #Mainallbg	#Mainheader	#headerbox	 #language	dl	dd	ul	li	span									{ position:relative; float:left; padding:5px 0 5px 12px;}
 
-#Mainallbg	#Mainheader	#headerbox	 #language	dl	dd.show { height: 54px;}
+#Mainallbg	#Mainheader	#headerbox	 #language	dl	dd.show { height: 81px;}
 #Mainallbg	#Mainheader	#headerbox	 #language	dl	dd.noshow { height: 0px;}
 
 
