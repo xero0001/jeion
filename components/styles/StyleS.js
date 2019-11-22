@@ -37,7 +37,7 @@ body {
 	  overflow-y:scroll;  overflow-x:hidden;
 }
 
-
+.notice_li {display:flex; position:relative; margin-top:16px; min-height: 300px;}
 td											{ font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
 img										{ margin:0; border:0; vertical-align:top;}
 div, dl, span							{ margin:0; padding:0; border:0; font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
@@ -379,8 +379,6 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .contactus	.input_st2								{ width:95%;}
 .contactus	.btn_st									{ text-align:center; margin-top:20px;}
 .contactus	.btn_st	input 							{ width:130px; height:35px; text-align:center; background-color:#686A6C; border:1px solid #484D53; color:#fff; cursor:pointer; font-size:14px;}
-
-
 
 
 @media all and (max-width:800px) {

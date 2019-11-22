@@ -168,19 +168,21 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>CEO's Message</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>
+                                    J:ON is a company that tries to create the
+                                    highest value for all mothers under the
+                                    motto, “Every possible need for mothers and
+                                    children.”
+                                  </a>
+                                </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>
@@ -271,19 +273,21 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>CEO's Message</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>
+                                    J:ON is a company that tries to create the
+                                    highest value for all mothers under the
+                                    motto, “Every possible need for mothers and
+                                    children.”
+                                  </a>
+                                </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>
@@ -345,19 +349,21 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>CEO's Message</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="contact/post/1">
+                                  <a>
+                                    J:ON is a company that tries to create the
+                                    highest value for all mothers under the
+                                    motto, “Every possible need for mothers and
+                                    children.”
+                                  </a>
+                                </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>

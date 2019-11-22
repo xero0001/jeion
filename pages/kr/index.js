@@ -238,23 +238,6 @@ const Example = () => (
                   </li>
                   <li className="main_padding">
                     <p>
-                      <img src={Section2Img4} alt="쌀파스타 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>쌀파스타</span>
-                      </dt>
-                      <dd>
-                        <Link href="/kr/products/pasta">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                  <li className="main_padding">
-                    <p>
                       <img src={Section2Img6} alt="베이글칩 이미지" />
                     </p>
                     <dl>

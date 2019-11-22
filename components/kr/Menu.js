@@ -296,11 +296,6 @@ export default () => {
                             </Link>
                           </li>
                           <li>
-                            <Link href="/kr/products/pasta">
-                              <a title="Yogurt 메뉴로 이동">쌀파스타</a>
-                            </Link>
-                          </li>
-                          <li>
                             <Link href="/kr/products/bagelschip">
                               <a title="Yogurt 메뉴로 이동">베이글칩</a>
                             </Link>

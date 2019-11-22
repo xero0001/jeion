@@ -118,12 +118,6 @@ export default () => {
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/kr/products/pasta">
-                        <a title="Go to Cookies">쌀파스타 </a>
-                      </Link>
-                      
-                    </dd>
-                    <dd>
                       <Link href="/kr/products/bagelschip">
                         <a title="Go to Cookies">베이글칩 </a>
                       </Link>
