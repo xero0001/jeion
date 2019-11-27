@@ -31,11 +31,11 @@ function Post(props) {
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/contact/notice">
+                  <Link href="/kr/contact/notice">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/contact/notice">
+                  <Link href="/kr/contact/notice">
                     <a title="Contact Us 메뉴로 이동하기">Contact Us</a>
                   </Link>{" "}
                   &gt;
@@ -54,7 +54,7 @@ function Post(props) {
                   <div id="SubMenu" className="sidebar">
                     <ul>
                       <li className="sidebar1 rollout">
-                        <Link href="/contact/notice">
+                        <Link href="/kr/contact/notice">
                           <a title="Notice 메뉴로 이동">
                             <img
                               src={menu1}
@@ -70,7 +70,7 @@ function Post(props) {
                         </Link>
                       </li>
                       <li className="sidebar2 sidebarActive">
-                        <Link href="/contact/contact">
+                        <Link href="/kr/contact/contact">
                           <a title="Contact Us  메뉴로 이동">
                             <img
                               src={menu2}
