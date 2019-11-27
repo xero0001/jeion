@@ -10,6 +10,7 @@ import VersionBgImg from "../public/images/version_bg.gif";
 import VersionLaImg from "../public/images/version_la.gif";
 import VersionEnImg from "../public/images/version_en.gif";
 import VersionChImg from "../public/images/version_ch.gif";
+import VersionKrImg from "../public/images/version_kr.jpg";
 
 import MenuAImg from "../public/images/menu_A0000.gif";
 import MenuBImg from "../public/images/menu_B0000.gif";
@@ -81,6 +82,22 @@ export default () => {
                   <li>
                     <span>
                       <a
+                        href="/kr"
+                        target="_blank"
+                        title="새창으로 중문홈페이지로 이동"
+                      >
+                        <img
+                          src={VersionKrImg}
+                          width="75"
+                          height="17"
+                          alt="KOREAN"
+                        />
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <a
                         href="/"
                         target="_blank"
                         title="새창으로 영문홈페이지로 이동"
@@ -107,17 +124,6 @@ export default () => {
                           height="17"
                           alt="CHINESE"
                         />
-                      </a>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a
-                        href="/kr"
-                        target="_blank"
-                        title="새창으로 중문홈페이지로 이동"
-                      >
-                        KOREAN
                       </a>
                     </span>
                   </li>
