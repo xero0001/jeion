@@ -52,7 +52,7 @@ export default () => {
         <div id="headerbox">
           <h2>LOGO</h2>
           <div className="logo">
-            <Link href="/kr">
+            <Link href="/">
               <a title="Go to Main">
                 <img src={LogoImg} width="115" height="55" alt="JEION LOGO" />
               </a>
@@ -62,19 +62,18 @@ export default () => {
             <h2>LANGUAGE</h2>
             <dl>
               <dt
+                className="ptr"
                 css={css`
                   background: url("${VersionBgImg}") left top no-repeat;
                 `}
               >
                 <span>
-                  <a href="#" title="페이지로 이동">
-                    <img
-                      src={VersionLaImg}
-                      width="68"
-                      height="17"
-                      alt="LANGUAGE"
-                    />
-                  </a>
+                  <img
+                    src={VersionLaImg}
+                    width="68"
+                    height="17"
+                    alt="LANGUAGE"
+                  />
                 </span>
               </dt>
               <dd className={language}>
@@ -82,7 +81,7 @@ export default () => {
                   <li>
                     <span>
                       <a
-                        href="/kr"
+                        href="/"
                         target="_blank"
                         title="새창으로 중문홈페이지로 이동"
                       >
@@ -98,7 +97,7 @@ export default () => {
                   <li>
                     <span>
                       <a
-                        href="/"
+                        href="/en"
                         target="_blank"
                         title="새창으로 영문홈페이지로 이동"
                       >

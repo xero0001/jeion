@@ -4,18 +4,9 @@ import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleM from "../components/styles/StyleM";
+import StyleM from "../components/kr/styles/StyleM";
 
 import MainBG from "../public/images/mainbg_01.jpg";
-
-import Section1Title from "../public/images/section1_title1.gif";
-import Section2Title from "../public/images/section2_title.gif";
-import Section3Title from "../public/images/section3_title.gif";
-
-import Section1Sub1 from "../public/images/section1_subject1.gif";
-import Section1Sub2 from "../public/images/section1_subject2.gif";
-import Section1Sub3 from "../public/images/section1_subject3.gif";
-import Section1Sub4 from "../public/images/section1_subject4.gif";
 
 import Section2Img1 from "../public/images/kr/section2_babyfood.jpg";
 import Section2Img2 from "../public/images/kr/section2_noodles.jpg";
@@ -29,7 +20,7 @@ import Section2Sub1 from "../public/images/section2_subject1.gif";
 import Section2Sub2 from "../public/images/section2_subject2.gif";
 import Section2Sub3 from "../public/images/section2_subject3.gif";
 
-import Section3Ban1 from "../public/images/section3_banner1.jpg";
+import Section3Ban1 from "../public/images/kr/section3_banner1.jpeg";
 import Section3Sub from "../public/images/section3_subject.gif";
 import Section3More from "../public/images/section3_more.gif";
 
@@ -77,17 +68,15 @@ const Example = () => (
             <ul>
               <li>
                 <strong>Safe food</strong>
-                <span>to protect my precious child</span>
+                <span>소중한 내 아이를 지켜주는 “안심 먹거리”</span>
               </li>
               <li>
                 <strong>Right food</strong>
-                <span>welcomed by both mom and child</span>
+                <span>엄마와 아이의 마음에 꼭 맞는 "바른 먹거리"</span>
               </li>
               <li>
                 <strong>Good food</strong>
-                <span>
-                  to increase nutrients from the strictly selected ingredients
-                </span>
+                <span>엄선된 재료에 영양소를 높이는 "착한 먹거리"</span>
               </li>
             </ul>
           </div>
@@ -99,35 +88,22 @@ const Example = () => (
         <div id="MainContents">
           <div id="Section1">
             <dl>
-              <dt>
-                <img
-                  src={Section1Title}
-                  width="284"
-                  height="38"
-                  alt="Business Areas"
-                />
+              <dt id="sec_title">
+                <span>사업분야</span>
               </dt>
               <dd>
                 <ul>
                   <li>
                     <p className="imgbox1"></p>
                     <dl>
-                      <dt>
-                        <img
-                          src={Section1Sub1}
-                          width="118"
-                          height="27"
-                          alt="Baby Foods"
-                        />
-                        <span>Baby Foods</span>
-                      </dt>
+                      <dt id="main_subtitle">유아용식품</dt>
                       <dd>
-                        <span></span>Good and pure food
+                        <span></span>아이들을 위한 안전하고
                         <br />
-                        for children
+                        깨끗한 먹거리
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/kr/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -137,20 +113,12 @@ const Example = () => (
                   <li>
                     <p className="imgbox2"></p>
                     <dl>
-                      <dt>
-                        <img
-                          src={Section1Sub2}
-                          width="94"
-                          height="27"
-                          alt="Beverage"
-                        />
-                        <span>Beverage</span>
-                      </dt>
+                      <dt id="main_subtitle">음료</dt>
                       <dd>
-                        <span></span>Healthy drinks with natural ingredients
+                        <span></span>천연재료로 만든 건강한 음료
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/kr/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -160,18 +128,10 @@ const Example = () => (
                   <li>
                     <p className="imgbox3"></p>
                     <dl>
-                      <dt>
-                        <img
-                          src={Section1Sub3}
-                          width="173"
-                          height="48"
-                          alt="Health Functional Foods"
-                        />
-                        <span>Health Functional Foods</span>
-                      </dt>
-                      <dd>Dietary supplement to help..</dd>
+                      <dt id="main_subtitle">건강기능식품</dt>
+                      <dd>삶에 활력을 불어 넣어주는 건강기능성 식품</dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/kr/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -181,21 +141,13 @@ const Example = () => (
                   <li className="lilast">
                     <p className="imgbox4"></p>
                     <dl>
-                      <dt>
-                        <img
-                          src={Section1Sub4}
-                          width="118"
-                          height="27"
-                          alt="Distribution"
-                        />
-                        <span>Distribution</span>
-                      </dt>
+                      <dt id="main_subtitle">유통</dt>
                       <dd>
-                        <span></span>Distribution base for building efficient
-                        marketing..
+                        <span></span>효율적인 시장 운영 시스템과 시장 판로 확대
+                        유통 거점 보유
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/kr/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -208,12 +160,7 @@ const Example = () => (
           <div id="Section2">
             <dl>
               <dt id="sec_title">
-                <img
-                  src={Section2Title}
-                  width="387"
-                  height="38"
-                  alt="Products and Services"
-                />
+                <span>제품 소개</span>
               </dt>
               <dd>
                 <ul>
@@ -223,10 +170,10 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Cheeki Monki Nutritious Baby Noodles</span>
+                        <span>유아국수</span>
                       </dt>
                       <dd>
-                        <Link href="/products/noodles">
+                        <Link href="/kr/products/noodles">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -240,10 +187,10 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Cheeki Monki Yogurt Cubes</span>
+                        <span>요거트큐브</span>
                       </dt>
                       <dd>
-                        <Link href="/products/yogurt">
+                        <Link href="/kr/products/yogurt">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -257,10 +204,10 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Beimei Nutritious Rice Cereal</span>
+                        <span>쌀이유식</span>
                       </dt>
                       <dd>
-                        <Link href="/products/babyfood">
+                        <Link href="/kr/products/babyfood">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -278,10 +225,10 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Cheeki Monki Seaweed Cook</span>
+                        <span>김쿡</span>
                       </dt>
                       <dd>
-                        <Link href="/products/kimcook">
+                        <Link href="/kr/products/kimcook">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -295,10 +242,10 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Haus Backen Bagel Chip</span>
+                        <span>베이글칩</span>
                       </dt>
                       <dd>
-                        <Link href="/products/bagelschip">
+                        <Link href="/kr/products/bagelschip">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -312,18 +259,13 @@ const Example = () => (
           </div>
           <div id="Section3">
             <dl>
-              <dt>
-                <img
-                  src={Section3Title}
-                  width="201"
-                  height="33"
-                  alt="About J:ON"
-                />
+              <dt id="sec_title">
+                <span>CEO인사말</span>
               </dt>
               <dd className="banner">
                 <ul>
                   <li>
-                    <Link href="/story/message">
+                    <Link href="/kr/story/message">
                       <a title="CEO’s Message 페이지로 이동">
                         <img
                           src={Section3Ban1}
@@ -337,24 +279,22 @@ const Example = () => (
 
               <dd className="Notice">
                 <dl>
-                  <dt>
-                    <img src={Section3Sub} alt="News &amp; Notice" />
-                  </dt>
+                  <dt id="menu_notice">공지사항</dt>
                   <dd>
                     <ul>
                       <li>
                         <dl>
                           <dt>
-                            <Link href="/contact/post/1">
-                              <a>CEO's Message</a>
+                            <Link href="/kr/contact/post/1">
+                              <a>CEO 인사말</a>
                             </Link>
                           </dt>
                           <dd>
-                            <Link href="/contact/post/1">
+                            <Link href="/kr/contact/post/1">
                               <a>
-                                J:ON is a company that tries to create the
-                                highest value for all mothers under the motto,
-                                “Every possible need for mothers and children.”
+                                (주)제이온 " 엄마와 아이에게 필요한 모든 가능성"
+                                이라는 이념아래 모든 엄마들을 위한 최고의 가치를
+                                만들기 위해 노력하는 회사입니다.
                               </a>
                             </Link>
                           </dd>
@@ -365,7 +305,7 @@ const Example = () => (
                   </dd>
                 </dl>
                 <p>
-                  <Link href="/contact/notice">
+                  <Link href="/kr/contact/notice">
                     <a title="공지사항 게시판으로 이동">
                       <img
                         src={Section3More}

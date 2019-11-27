@@ -22,8 +22,9 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     const jssplit = this.props.router.route.split("/");
     const isChinese = jssplit[1] === "cn";
-    const isKorean = jssplit[1] === "kr";
-    const isEnglish = !(isChinese || isKorean);
+    const isEnglish = jssplit[1] === "en";
+    // const isKorean = jssplit[1] === "kr";
+    const isKorean = !(isChinese || isEnglish);
     return (
       <div id="Mainallbg">
         <GlobalStyles />

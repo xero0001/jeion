@@ -1,11 +1,14 @@
 import React from "react";
+import { css } from "@emotion/core";
+import styled from "@emotion/styled";
+import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleS from "../../components/styles/StyleS";
+import StyleS from "../../../components/styles/StyleS";
 
-import ProductsBanner from "../../components/ProductsBanner";
-import Img from "../../public/images/kr/products_noodles.jpg";
-import Img2 from "../../public/images/kr/products_noodles2.jpg";
+import Img from "../../../public/images/kr/products_kimcook.jpg";
+
+import ProductsBanner from "../../../components/ProductsBanner";
 
 export default () => {
   return (
@@ -17,22 +20,22 @@ export default () => {
           <div id="MainContents">
             <div id="Contents">
               <div className="titleroad">
-                <div className="Subtitle long">
-                  <h4>Cheeki Monki Nutritious Baby Noodles</h4>
+                <div className="Subtitle">
+                  <h4>Cheeki Monki Seaweed Cook</h4>
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/">
+                  <Link href="/en/">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/products/noodles">
+                  <Link href="/en/products/noodles">
                     <a title="Our Products 메뉴로 이동하기">Our Products</a>
                   </Link>{" "}
                   &gt;
                   <a href="#Start" title="About ABC Cookies 본문 바로가기">
                     {" "}
-                    <em className="highlight">Baby Noodles</em>
+                    <em className="highlight">Seaweed Cook</em>
                   </a>{" "}
                 </div>
               </div>
@@ -43,27 +46,27 @@ export default () => {
                 <div className="contentsbox">
                   <div className="B1100">
                     <div className="tabmenu">
-                      <Link href="/products/noodles">
-                        <a className="on long" title="페이지로 이동">
+                      <Link href="/en/products/noodles">
+                        <a className="long" title="페이지로 이동">
                           <span>Cheeki Monki Nutritious Baby Noodles</span>
                         </a>
                       </Link>
-                      <Link href="/products/yogurt">
+                      <Link href="/en/products/yogurt">
                         <a title="페이지로 이동">
                           <span>Cheeki Monki Yogurt Cubes</span>
                         </a>
                       </Link>
-                      <Link href="/products/babyfood">
+                      <Link href="/en/products/babyfood">
                         <a className="last" title="페이지로 이동">
                           <span>Beimei Nutritious Rice Cereal</span>
                         </a>
                       </Link>
-                      <Link href="/products/kimcook">
-                        <a title="페이지로 이동">
+                      <Link href="/en/products/kimcook">
+                        <a className="on" title="페이지로 이동">
                           <span>Cheeki Monki Seaweed Cook</span>
                         </a>
                       </Link>
-                      <Link href="/products/bagelschip">
+                      <Link href="/en/products/bagelschip">
                         <a className="last" title="페이지로 이동">
                           <span>Haus Backen Bagel Chip</span>
                         </a>
@@ -76,9 +79,6 @@ export default () => {
                           <dd>
                             <img src={Img} />
                           </dd>
-                          <dd>
-                            <img src={Img2} />
-                          </dd>
                         </dl>
                       </li>
                       <li>
@@ -86,10 +86,10 @@ export default () => {
                           <dt>Product Introduction</dt>
                           <dd>
                             <p>
-                              The nutritional design with minerals and vitamins
-                              to the vegetable raw materials suitable for
-                              infants, the sodium-free noodle technology, and
-                              the infant-only noodles
+                              A freeze-dried block for instant soup to make
+                              various dishes such as noodles, porridge, soup and
+                              dumpling soup, which can be cooked simply by
+                              pouring warm water
                             </p>
                           </dd>
                         </dl>
@@ -99,21 +99,13 @@ export default () => {
                           <dt>Features</dt>
                           <dd>
                             <p>
-                              - 4 flavors : Plain, Spanish, Carrot, Sweet
-                              Pumpkin
+                              - Maximizes taste and nutrition using a
+                              freeze-drying method
                             </p>
+                            <p>- Can be cooked easily anytime, anywhere</p>
                             <p>
-                              - Nutritional balance with right mix of vegetable
-                              ingredients, calcium, zinc, iron, and Vitamin A,
-                              B, D
-                            </p>
-                            <p>
-                              - 10cm long noodle suitable for babies swallow
-                            </p>
-                            <p>- No sodium added, No color additives</p>
-                            <p>
-                              - Acquired GB certification for babies processed
-                              food
+                              - Can be used for various dishes such as noodles,
+                              porridge, and soup
                             </p>
                           </dd>
                         </dl>
@@ -123,16 +115,14 @@ export default () => {
                           <dt>How to Enjoy 100%</dt>
                           <dd>
                             <p>
-                              - Enjoy as soup noodle complemented with healthy
-                              vegetables
+                              - A variety of dishes made easily anytime,
+                              anywhere by putting in noodles, stew and soup
                             </p>
+                            <p>- Nutritious porridge for one meal </p>
                             <p>
-                              - No too salty food! Use low-sodium healthy soy
-                              sauce to make mixed noodle
-                            </p>
-                            <p>
-                              - Play for developing five-senses by eating baby
-                              noodles and baby food together
+                              - When traveling, bring Kim Cook, which turns into
+                              a meal such as seaweed soup, water noodles, and
+                              more!
                             </p>
                           </dd>
                         </dl>

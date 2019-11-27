@@ -66,6 +66,7 @@ const StyleM = () => (
     .skip:active,
     .skip:focus								{ width:100%; height:auto; margin:0; padding:5px 0; text-indent:10px; font-weight:bold; font-size:12px; color:#333;  line-height:1; text-decoration:none !important;}
 
+    .ptr { cursor:pointer;}
 #Mainallbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}
 #Mainallbg	 .container					{ position:relative; width:1000px; margin:0 auto;}
 

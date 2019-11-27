@@ -4,15 +4,15 @@ import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleS from "../../components/styles/StyleS";
+import StyleS from "../../../components/styles/StyleS";
 
-import SubMenuC1000 from "../../public/images/submenu_C1000.gif";
-import SubMenuC2000 from "../../public/images/submenu_C2000.gif";
+import SubMenuC1000 from "../../../public/images/submenu_C1000.gif";
+import SubMenuC2000 from "../../../public/images/submenu_C2000.gif";
 
-import SubMenuC1000E from "../../public/images/submenu_C1000e.gif";
-import SubMenuC2000E from "../../public/images/submenu_C2000e.gif";
+import SubMenuC1000E from "../../../public/images/submenu_C1000e.gif";
+import SubMenuC2000E from "../../../public/images/submenu_C2000e.gif";
 
-import ContactBanner from "../../components/ContactBanner";
+import ContactBanner from "../../../components/ContactBanner";
 
 export default () => {
   const [menu1, setMenu1] = React.useState(SubMenuC1000);
@@ -32,11 +32,11 @@ export default () => {
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/">
+                  <Link href="/en/">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/contact/notice">
+                  <Link href="/en/contact/notice">
                     <a title="Contact Us 메뉴로 이동하기">Contact Us</a>
                   </Link>{" "}
                   &gt;
@@ -55,7 +55,7 @@ export default () => {
                   <div id="SubMenu" className="sidebar">
                     <ul>
                       <li className="sidebar1 rollout">
-                        <Link href="/contact/notice">
+                        <Link href="/en/contact/notice">
                           <a title="Notice 메뉴로 이동">
                             <img
                               src={menu1}
@@ -71,7 +71,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar2 sidebarActive">
-                        <Link href="/contact/contact">
+                        <Link href="/en/contact/contact">
                           <a title="Contact Us  메뉴로 이동">
                             <img
                               src={menu2}

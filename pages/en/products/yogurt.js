@@ -4,11 +4,11 @@ import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleS from "../../components/styles/StyleS";
+import StyleS from "../../../components/styles/StyleS";
 
-import Img from "../../public/images/kr/products_yogurt.jpg";
+import Img from "../../../public/images/kr/products_yogurt.jpg";
 
-import ProductsBanner from "../../components/ProductsBanner";
+import ProductsBanner from "../../../components/ProductsBanner";
 
 export default () => {
   return (
@@ -25,11 +25,11 @@ export default () => {
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/">
+                  <Link href="/en/">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/products/noodles">
+                  <Link href="/en/products/noodles">
                     <a title="Our Products 메뉴로 이동하기">Our Products</a>
                   </Link>{" "}
                   &gt;
@@ -46,27 +46,27 @@ export default () => {
                 <div className="contentsbox">
                   <div className="B1100">
                     <div className="tabmenu">
-                      <Link href="/products/noodles">
+                      <Link href="/en/products/noodles">
                         <a className="long" title="페이지로 이동">
                           <span>Cheeki Monki Nutritious Baby Noodles</span>
                         </a>
                       </Link>
-                      <Link href="/products/yogurt">
+                      <Link href="/en/products/yogurt">
                         <a className="on" title="페이지로 이동">
                           <span>Cheeki Monki Yogurt Cubes</span>
                         </a>
                       </Link>
-                      <Link href="/products/babyfood">
+                      <Link href="/en/products/babyfood">
                         <a className="last" title="페이지로 이동">
                           <span>Beimei Nutritious Rice Cereal</span>
                         </a>
                       </Link>
-                      <Link href="/products/kimcook">
+                      <Link href="/en/products/kimcook">
                         <a title="페이지로 이동">
                           <span>Cheeki Monki Seaweed Cook</span>
                         </a>
                       </Link>
-                      <Link href="/products/bagelschip">
+                      <Link href="/en/products/bagelschip">
                         <a className="last" title="페이지로 이동">
                           <span>Haus Backen Bagel Chip</span>
                         </a>

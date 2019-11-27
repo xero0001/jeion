@@ -63,6 +63,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 
 
+.ptr { cursor:pointer;}
 
 
 #Mainallbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}

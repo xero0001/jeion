@@ -52,7 +52,7 @@ export default () => {
         <div id="headerbox">
           <h2>LOGO</h2>
           <div className="logo">
-            <Link href="/">
+            <Link href="/en/">
               <a title="Go to Main">
                 <img src={LogoImg} width="115" height="55" alt="JEION LOGO" />
               </a>
@@ -62,19 +62,18 @@ export default () => {
             <h2>LANGUAGE</h2>
             <dl>
               <dt
+                className="ptr"
                 css={css`
                   background: url("${VersionBgImg}") left top no-repeat;
                 `}
               >
                 <span>
-                  <a href="#" title="페이지로 이동">
-                    <img
-                      src={VersionLaImg}
-                      width="68"
-                      height="17"
-                      alt="LANGUAGE"
-                    />
-                  </a>
+                  <img
+                    src={VersionLaImg}
+                    width="68"
+                    height="17"
+                    alt="LANGUAGE"
+                  />
                 </span>
               </dt>
               <dd className={language}>
@@ -82,7 +81,7 @@ export default () => {
                   <li>
                     <span>
                       <a
-                        href="/kr"
+                        href="/"
                         target="_blank"
                         title="새창으로 중문홈페이지로 이동"
                       >
@@ -98,7 +97,7 @@ export default () => {
                   <li>
                     <span>
                       <a
-                        href="/"
+                        href="/en"
                         target="_blank"
                         title="새창으로 영문홈페이지로 이동"
                       >
@@ -138,7 +137,7 @@ export default () => {
             <h2>MENU</h2>
             <ul>
               <li className="gnb1">
-                <Link href="/story/about">
+                <Link href="/en/story/about">
                   <a title="Our Story 메뉴로 이동">
                     <img
                       src={menuA}
@@ -174,12 +173,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the
@@ -196,36 +195,36 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/story/about">
+                            <Link href="/en/story/about">
                               <a title="About J:on 메뉴로 이동">About J:on</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/story/vision">
+                            <Link href="/en/story/vision">
                               <a title="Our Vision 메뉴로 이동">Our Vision</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/story/message">
+                            <Link href="/en/story/message">
                               <a title="CEO's Message 메뉴로 이동">
                                 CEO's Message
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/story/philosophy">
+                            <Link href="/en/story/philosophy">
                               <a title="Management Philosophy 메뉴로 이동">
                                 Management Philosophy
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/story/history">
+                            <Link href="/en/story/history">
                               <a title="Our History 메뉴로 이동">Our History</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/story/location">
+                            <Link href="/en/story/location">
                               <a title="Location 메뉴로 이동">Location</a>
                             </Link>
                           </li>
@@ -243,7 +242,7 @@ export default () => {
                 </div>
               </li>
               <li className="gnb2">
-                <Link href="/products/noodles">
+                <Link href="/en/products/noodles">
                   <a title="Our Products 메뉴로 이동">
                     <img
                       src={menuB}
@@ -279,12 +278,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the
@@ -301,35 +300,35 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/products/noodles">
+                            <Link href="/en/products/noodles">
                               <a title="Noodles 메뉴로 이동">
                                 Cheeki Monki Nutritious Baby Noodles
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/products/yogurt">
+                            <Link href="/en/products/yogurt">
                               <a title="Yogurt 메뉴로 이동">
                                 Cheeki Monki Yogurt Cubes
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/products/babyfood">
+                            <Link href="/en/products/babyfood">
                               <a title="Babyfood 메뉴로 이동">
                                 Beimei Nutritious Rice Cereal
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/products/kimcook">
+                            <Link href="/en/products/kimcook">
                               <a title="Kimcook 메뉴로 이동">
                                 Cheeki Monki Seaweed Cook
                               </a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/products/bagelschip">
+                            <Link href="/en/products/bagelschip">
                               <a title="Haus Backen 메뉴로 이동">
                                 Haus Backen Bagel Chip
                               </a>
@@ -349,7 +348,7 @@ export default () => {
                 </div>
               </li>
               <li className="gnb3">
-                <Link href="/contact/notice">
+                <Link href="/en/contact/notice">
                   <a title="Contact Us 메뉴로 이동">
                     <img
                       src={menuC}
@@ -385,12 +384,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="/contact/post/1">
+                                <Link href="/en/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the
@@ -407,12 +406,12 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/contact/notice">
+                            <Link href="/en/contact/notice">
                               <a title="Notice 메뉴로 이동">Notice</a>
                             </Link>
                           </li>
                           <li>
-                            <Link href="/contact/contact">
+                            <Link href="/en/contact/contact">
                               <a title="Contact Us  메뉴로 이동">Contact Us </a>
                             </Link>
                           </li>

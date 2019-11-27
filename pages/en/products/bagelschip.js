@@ -4,11 +4,12 @@ import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleS from "../../components/styles/StyleS";
+import StyleS from "../../../components/styles/StyleS";
 
-import Img from "../../public/images/kr/products_babyfood.jpg";
+import Img from "../../../public/images/kr/products_bagel1.jpg";
+import Img2 from "../../../public/images/kr/products_bagel2.jpg";
 
-import ProductsBanner from "../../components/ProductsBanner";
+import ProductsBanner from "../../../components/ProductsBanner";
 
 export default () => {
   return (
@@ -21,21 +22,21 @@ export default () => {
             <div id="Contents">
               <div className="titleroad">
                 <div className="Subtitle">
-                  <h4>Beimei Nutritious Rice Cereal</h4>
+                  <h4>Haus Backen Bagel Chip</h4>
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/">
+                  <Link href="/en/">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/products/noodles">
+                  <Link href="/en/products/noodles">
                     <a title="Our Products 메뉴로 이동하기">Our Products</a>
                   </Link>{" "}
                   &gt;
                   <a href="#Start" title="About ABC Cookies 본문 바로가기">
                     {" "}
-                    <em className="highlight">Rice Cereal</em>
+                    <em className="highlight">Bagel Chip</em>
                   </a>{" "}
                 </div>
               </div>
@@ -46,28 +47,28 @@ export default () => {
                 <div className="contentsbox">
                   <div className="B1100">
                     <div className="tabmenu">
-                      <Link href="/products/noodles">
+                      <Link href="/en/products/noodles">
                         <a className="long" title="페이지로 이동">
                           <span>Cheeki Monki Nutritious Baby Noodles</span>
                         </a>
                       </Link>
-                      <Link href="/products/yogurt">
+                      <Link href="/en/products/yogurt">
                         <a title="페이지로 이동">
                           <span>Cheeki Monki Yogurt Cubes</span>
                         </a>
                       </Link>
-                      <Link href="/products/babyfood">
-                        <a className="last on" title="페이지로 이동">
+                      <Link href="/en/products/babyfood">
+                        <a className="last" title="페이지로 이동">
                           <span>Beimei Nutritious Rice Cereal</span>
                         </a>
                       </Link>
-                      <Link href="/products/kimcook">
+                      <Link href="/en/products/kimcook">
                         <a title="페이지로 이동">
                           <span>Cheeki Monki Seaweed Cook</span>
                         </a>
                       </Link>
-                      <Link href="/products/bagelschip">
-                        <a className="last" title="페이지로 이동">
+                      <Link href="/en/products/bagelschip">
+                        <a className="last on" title="페이지로 이동">
                           <span>Haus Backen Bagel Chip</span>
                         </a>
                       </Link>
@@ -79,6 +80,9 @@ export default () => {
                           <dd>
                             <img src={Img} />
                           </dd>
+                          <dd>
+                            <img src={Img2} />
+                          </dd>
                         </dl>
                       </li>
                       <li>
@@ -86,10 +90,9 @@ export default () => {
                           <dt>Product Introduction</dt>
                           <dd>
                             <p>
-                              Reduce allergies by more than domestic rice (93%),
-                              add various vegetables, minerals and vitamins, and
-                              provide nutritional support for infants and young
-                              children
+                              A product made by thinly slicing a bagel with
+                              better digestibility and lower fat than other
+                              breads and perfect for a simple meal
                             </p>
                           </dd>
                         </dl>
@@ -99,24 +102,15 @@ export default () => {
                           <dt>Features</dt>
                           <dd>
                             <p>
-                              - 4 flavors : Rice, Pumpkin, Vegetable, Seaweed
+                              - Easy to keep and carry and perfect for a
+                              breakfast alternative
                             </p>
                             <p>
-                              - Nutritious Rice Cereal for 6 ~ 36 months old
+                              - Improved crispy texture unlike existing bagels
                             </p>
                             <p>
-                              - Supplement of essential nutrients through
-                              selection of weaning stage by growth stage
+                              - No artificial colors, additives or trans fats
                             </p>
-                            <p>
-                              - Rich flavor and taste while minimizing
-                              nutritional loss through Extrusion technology
-                            </p>
-                            <p>
-                              - Nutritional balance with right mix of calcium,
-                              zinc, iron and Vitamin A, B, D
-                            </p>
-                            <p>- No preservatives, No flavoring</p>
                           </dd>
                         </dl>
                       </li>
@@ -124,9 +118,12 @@ export default () => {
                         <dl>
                           <dt>How to Enjoy 100%</dt>
                           <dd>
-                            <p>- Easy breakfast</p>
-                            <p>- Nutritious meal</p>
-                            <p>- Quick Meals for Long Distance Travel</p>
+                            <p>- Rich flavor with cream cheese</p>
+                            <p>- With a cup of Americano</p>
+                            <p>
+                              - A low-fat snack that can be taken with
+                              confidence while on a diet
+                            </p>
                           </dd>
                         </dl>
                       </li>

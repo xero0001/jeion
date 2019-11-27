@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { withRouter } from "next/router";
-import StyleS from "../../../components/styles/StyleS";
-import ContactBanner from "../../../components/ContactBanner";
+import StyleS from "../../../../components/styles/StyleS";
+import ContactBanner from "../../../../components/ContactBanner";
 import Link from "next/link";
 
-import SubMenuC1000 from "../../../public/images/submenu_C1000.gif";
-import SubMenuC2000 from "../../../public/images/submenu_C2000.gif";
+import SubMenuC1000 from "../../../../public/images/submenu_C1000.gif";
+import SubMenuC2000 from "../../../../public/images/submenu_C2000.gif";
 
-import SubMenuC1000E from "../../../public/images/submenu_C1000e.gif";
-import SubMenuC2000E from "../../../public/images/submenu_C2000e.gif";
+import SubMenuC1000E from "../../../../public/images/submenu_C1000e.gif";
+import SubMenuC2000E from "../../../../public/images/submenu_C2000e.gif";
 
-import Notice1 from "../../../public/images/notice_1.jpeg";
+import Notice1 from "../../../../public/images/notice_1.jpeg";
 
 function Post(props) {
   const [menu1, setMenu1] = React.useState(SubMenuC1000E);
@@ -31,11 +31,11 @@ function Post(props) {
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/contact/notice">
+                  <Link href="/en/contact/notice">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/contact/notice">
+                  <Link href="/en/contact/notice">
                     <a title="Contact Us 메뉴로 이동하기">Contact Us</a>
                   </Link>{" "}
                   &gt;
@@ -54,7 +54,7 @@ function Post(props) {
                   <div id="SubMenu" className="sidebar">
                     <ul>
                       <li className="sidebar1 rollout">
-                        <Link href="/contact/notice">
+                        <Link href="/en/contact/notice">
                           <a title="Notice 메뉴로 이동">
                             <img
                               src={menu1}
@@ -70,7 +70,7 @@ function Post(props) {
                         </Link>
                       </li>
                       <li className="sidebar2 sidebarActive">
-                        <Link href="/contact/contact">
+                        <Link href="/en/contact/contact">
                           <a title="Contact Us  메뉴로 이동">
                             <img
                               src={menu2}

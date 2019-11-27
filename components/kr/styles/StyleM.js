@@ -41,6 +41,7 @@ const StyleM = () => (
     #sec_title{font-size:30px; line-height:38px; color:rgb(90,80,70); background-color:white;}
     #sec_title span{background-color:white; padding:8px;}
     
+    .ptr { cursor:pointer;}
     img										{ margin:0; border:0; vertical-align:top;}
     div, dl, span							{ margin:0; padding:0; border:0; }
     form										{ margin:0; padding:0; border:0;}

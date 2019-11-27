@@ -54,39 +54,39 @@ export default () => {
                 <li>
                   <dl>
                     <dt>
-                      <Link href="/story/about">
+                      <Link href="/en/story/about">
                         <a title="Go to Our Story">OUR STORY</a>
                       </Link>
                     </dt>
                     <dd>
-                      <Link href="/story/about">
+                      <Link href="/en/story/about">
                         <a title="Go to About J:on">About J:on</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/story/vision">
+                      <Link href="/en/story/vision">
                         <a title="Go to Our Vision">Our Vision</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/story/message">
+                      <Link href="/en/story/message">
                         <a title="Go to CEO's Message">CEO's Message</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/story/philosophy">
+                      <Link href="/en/story/philosophy">
                         <a title="Go to Management Philosophy">
                           Management Philosophy
                         </a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/story/history">
+                      <Link href="/en/story/history">
                         <a title="Go to Our History">Our History</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/story/location">
+                      <Link href="/en/story/location">
                         <a title="Go to Location">Location</a>
                       </Link>
                     </dd>
@@ -95,32 +95,32 @@ export default () => {
                 <li>
                   <dl>
                     <dt>
-                      <Link href="/products/noodles">
+                      <Link href="/en/products/noodles">
                         <a title="Go to Our Products">OUR PRODUCT</a>
                       </Link>
                     </dt>
                     <dd>
-                      <Link href="/products/noodles">
+                      <Link href="/en/products/noodles">
                         <a title="Go to Cookies">Baby Noodles</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/products/yogurt">
+                      <Link href="/en/products/yogurt">
                         <a title="Go to Cookies">Yogurt Cubes</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/products/babyfood">
+                      <Link href="/en/products/babyfood">
                         <a title="Go to Cookies">Rice Cereal</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/products/kimcook">
+                      <Link href="/en/products/kimcook">
                         <a title="Go to Cookies">Seaweed Cook</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/products/bagelschip">
+                      <Link href="/en/products/bagelschip">
                         <a title="Go to Cookies">Bagel Chip</a>
                       </Link>
                     </dd>
@@ -129,17 +129,17 @@ export default () => {
                 <li>
                   <dl>
                     <dt>
-                      <Link href="/contact/notice">
+                      <Link href="/en/contact/notice">
                         <a title="Go to Contact Us">CONTACT US</a>
                       </Link>
                     </dt>
                     <dd>
-                      <Link href="/contact/notice">
+                      <Link href="/en/contact/notice">
                         <a title="Go to Notice">Notice</a>
                       </Link>
                     </dd>
                     <dd>
-                      <Link href="/contact/contact">
+                      <Link href="/en/contact/contact">
                         <a title="Go to Contact Us">Contact Us</a>
                       </Link>
                     </dd>

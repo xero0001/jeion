@@ -4,28 +4,28 @@ import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
 
-import StyleS from "../../components/styles/StyleS";
+import StyleS from "../../../components/styles/StyleS";
 
-import SubMenuA1000 from "../../public/images/submenu_A1000.gif";
-import SubMenuA2000 from "../../public/images/submenu_A2000.gif";
-import SubMenuA3000 from "../../public/images/submenu_A3000.gif";
-import SubMenuA4000 from "../../public/images/submenu_A4000.gif";
-import SubMenuA5000 from "../../public/images/submenu_A5000.gif";
-import SubMenuA6000 from "../../public/images/submenu_A6000.gif";
+import SubMenuA1000 from "../../../public/images/submenu_A1000.gif";
+import SubMenuA2000 from "../../../public/images/submenu_A2000.gif";
+import SubMenuA3000 from "../../../public/images/submenu_A3000.gif";
+import SubMenuA4000 from "../../../public/images/submenu_A4000.gif";
+import SubMenuA5000 from "../../../public/images/submenu_A5000.gif";
+import SubMenuA6000 from "../../../public/images/submenu_A6000.gif";
 
-import SubMenuA1000E from "../../public/images/submenu_A1000e.gif";
-import SubMenuA2000E from "../../public/images/submenu_A2000e.gif";
-import SubMenuA3000E from "../../public/images/submenu_A3000e.gif";
-import SubMenuA4000E from "../../public/images/submenu_A4000e.gif";
-import SubMenuA5000E from "../../public/images/submenu_A5000e.gif";
-import SubMenuA6000E from "../../public/images/submenu_A6000e.gif";
+import SubMenuA1000E from "../../../public/images/submenu_A1000e.gif";
+import SubMenuA2000E from "../../../public/images/submenu_A2000e.gif";
+import SubMenuA3000E from "../../../public/images/submenu_A3000e.gif";
+import SubMenuA4000E from "../../../public/images/submenu_A4000e.gif";
+import SubMenuA5000E from "../../../public/images/submenu_A5000e.gif";
+import SubMenuA6000E from "../../../public/images/submenu_A6000e.gif";
 
-import A4000Img1 from "../../public/images/A4000_img1.jpg";
-import A4000Img2 from "../../public/images/A4000_img2.jpg";
-import A4000Img3 from "../../public/images/A4000_img3.jpg";
-import A4000Img4 from "../../public/images/A4000_img4.jpg";
+import A4000Img1 from "../../../public/images/A4000_img1.jpg";
+import A4000Img2 from "../../../public/images/A4000_img2.jpg";
+import A4000Img3 from "../../../public/images/A4000_img3.jpg";
+import A4000Img4 from "../../../public/images/A4000_img4.jpg";
 
-import StoryBanner from "../../components/StoryBanner";
+import StoryBanner from "../../../components/StoryBanner";
 
 export default () => {
   const [menu1, setMenu1] = React.useState(SubMenuA1000);
@@ -49,11 +49,11 @@ export default () => {
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
-                  <Link href="/">
+                  <Link href="/en/">
                     <a title="메인으로 이동">Home</a>
                   </Link>{" "}
                   &gt;{" "}
-                  <Link href="/story/about">
+                  <Link href="/en/story/about">
                     <a title="Our Story 메뉴로 이동하기">Our Story</a>
                   </Link>{" "}
                   &gt;
@@ -72,7 +72,7 @@ export default () => {
                   <div id="SubMenu" className="sidebar">
                     <ul>
                       <li className="sidebar1 sidebarActive">
-                        <Link href="/story/about">
+                        <Link href="/en/story/about">
                           <a title="About J:on 메뉴로 이동">
                             <img
                               src={menu1}
@@ -88,7 +88,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar2 rollout">
-                        <Link href="/story/vision">
+                        <Link href="/en/story/vision">
                           <a title="Our Vision 메뉴로 이동">
                             <img
                               src={menu2}
@@ -104,7 +104,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar3 rollout">
-                        <Link href="/story/message">
+                        <Link href="/en/story/message">
                           <a title="CEO's Message 메뉴로 이동">
                             <img
                               src={menu3}
@@ -120,7 +120,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar4 rollout">
-                        <Link href="/story/philosophy">
+                        <Link href="/en/story/philosophy">
                           <a title="Management Philosophy 메뉴로 이동">
                             <img
                               src={menu4}
@@ -136,7 +136,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar5 rollout">
-                        <Link href="/story/history">
+                        <Link href="/en/story/history">
                           <a title="Our History 메뉴로 이동">
                             <img
                               src={menu5}
@@ -152,7 +152,7 @@ export default () => {
                         </Link>
                       </li>
                       <li className="sidebar6 rollout">
-                        <Link href="/story/location">
+                        <Link href="/en/story/location">
                           <a title="Location 메뉴로 이동">
                             <img
                               src={menu6}
