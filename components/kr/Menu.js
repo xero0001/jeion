@@ -161,17 +161,19 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>CEO 인사말</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>
+                                    (주)제이온 " 엄마와 아이에게 필요한 모든
+                                    가능성" 이라는 이념아래 모든 엄마들을 위한
+                                    최고의 가치를 만들기 위해 노력하는
+                                    회사입니다.
+                                  </a>
+                                </Link>
                               </dd>
                               <dd className="data">2016.02.16</dd>
                             </dl>
