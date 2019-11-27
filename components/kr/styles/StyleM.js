@@ -168,8 +168,8 @@ const StyleM = () => (
 
 #Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:175px; width:100%; text-align:left; z-index:15;}
 #Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:170px; height:170px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width:80%; font-size:20px; margin:35px 0 10px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size:14px; display:inline-block; padding:0 10px;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width:80%; font-size:20px; margin:35px 0 10px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; font-weight:900;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size:16px; display:inline-block; padding:0 10px; font-weight: 700;}
 
 
 #MainWrapper													{ width:1000px;margin:0 auto;text-align:left;z-index:2;}

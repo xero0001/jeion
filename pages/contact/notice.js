@@ -13,7 +13,7 @@ import SubMenuC1000E from "../../public/images/submenu_C1000e.gif";
 import SubMenuC2000E from "../../public/images/submenu_C2000e.gif";
 
 import ContactBanner from "../../components/ContactBanner";
-import Notice1 from "../../public/images/notice_1.jpg";
+import Notice1 from "../../public/images/notice_1.jpeg";
 
 export default () => {
   const [menu1, setMenu1] = React.useState(SubMenuC1000E);

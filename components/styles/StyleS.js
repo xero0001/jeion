@@ -237,7 +237,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A1000	.list_a	dl	dd	p	strong									{ color:#8baa00}
 .A1000	.list_a	dl	dd:last-child									{ border:0;}
 .A1000	.list_a	.bg1													{ float:right; width:58%; height:130px; background:url(${A1000Img1}) top center no-repeat; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
-.A1000	.list_c	.bg3	img											{ width:100%; height:auto;}
+.A1000	.list_c	.bg3	img											{ width:100%; height:auto; max-width:300px; margin-bottom: 4%;}
 .A1000	.list_c	.bg3	ul	li											{ float:left; width:33.3333%; margin-top:20%;}
 .A1000	.list_c	.bg3	ul	li	span									{ width:auto; display:inline-block; text-align:left;}
 .A1000	.list_c	.bg3	.txt1, .txt2									{ margin-left:-70px; font-size:17px;}

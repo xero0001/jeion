@@ -145,8 +145,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Subelement	.Subtext								{ position:absolute;left:0; top:120px; width:100%; text-align:left; z-index:15;}
 #Subelement	.Subtext	ul							{ margin-left:40px;}
 #Subelement	.Subtext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:21px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px;}
-#Subelement	.Subtext	ul	li	span				{ font-size:13px; display:inline-block; padding:0 15px; line-height:14px;}
+#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:20px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px;}
+#Subelement	.Subtext	ul	li	span				{ font-size:15px; display:inline-block; padding:0 15px; line-height:16px; font-weight:700;}
 
 #MainContents										{ position:relative; float:left; width:1000px; margin:390px 0 0 0; margin-top:390px !important;}
 #Contents												{ width:1000px; height:auto;}
@@ -238,7 +238,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A1000	.list_a	dl	dd	p	strong									{ color:#8baa00}
 .A1000	.list_a	dl	dd:last-child									{ border:0;}
 .A1000	.list_a	.bg1													{ float:right; width:58%; height:130px; background:url(${A1000Img1}) top center no-repeat; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
-.A1000	.list_c	.bg3	img											{ width:100%; height:auto; max-width:300px;}
+.A1000	.list_c	.bg3	img											{ width:100%; height:auto; max-width:300px; margin-bottom: 4%;}
 .A1000	.list_c	.bg3	ul	li											{ float:left; width:33.3333%; margin-top:20%;}
 .A1000	.list_c	.bg3	ul	li	span									{ width:auto; display:inline-block; text-align:left;}
 .A1000	.list_c	.bg3	.txt1, .txt2									{ margin-left:-70px; font-size:17px;}
@@ -265,8 +265,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 
 .A3000	dl	dt																{ padding-bottom:7%;}
-.A3000	dd	p																{ padding-bottom:5%;}
-.A3000	dd	p	u															{ font-size:16px; color:#343434;}
+.A3000	dd	p																{ padding-bottom:5%; font-size:17px; line-height: 25px;}
 .A3000	.sign																{ text-align:right;}
 
 

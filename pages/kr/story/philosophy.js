@@ -180,8 +180,9 @@ export default () => {
                         </dt>
                         <dd>
                           지역자원을 활용하여 국제 경쟁력 있는 제품을 개발 및
-                          수출 활성화를 도모하고 양질의 일자리 창출과 국내외
-                          아동 구호를 실현하는 가족친화형 기업
+                          수출 활성화를 도모하고 양질의 일자리 창출과
+                          <br />
+                          국내외 아동 구호를 실현하는 가족친화형 기업
                         </dd>
                       </dl>
                     </li>
@@ -232,7 +233,7 @@ export default () => {
                         </dd>
                         <dd>
                           <p>
-                            <strong>We strive to secure sound</strong>基准,
+                            <strong>We strive to secure sound</strong>
                             우리는 정직과 성실을 바탕으로 건전한 기업윤리와
                             깨끗한 조직문화를 확립하고 세계적인 경쟁력을
                             배양하기 위하여 끊임없는 자기계발과 혁신을 도모한다.

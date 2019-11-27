@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { withRouter } from "next/router";
-import StyleS from "../../../components/styles/StyleS";
-import ContactBanner from "../../../components/ContactBanner";
+import StyleS from "../../../../components/styles/StyleS";
+import ContactBanner from "../../../../components/ContactBanner";
 import Link from "next/link";
 
-import SubMenuC1000 from "../../../public/images/submenu_C1000.gif";
-import SubMenuC2000 from "../../../public/images/submenu_C2000.gif";
+import SubMenuC1000 from "../../../../public/images/submenu_C1000.gif";
+import SubMenuC2000 from "../../../../public/images/submenu_C2000.gif";
 
-import SubMenuC1000E from "../../../public/images/submenu_C1000e.gif";
-import SubMenuC2000E from "../../../public/images/submenu_C2000e.gif";
+import SubMenuC1000E from "../../../../public/images/submenu_C1000e.gif";
+import SubMenuC2000E from "../../../../public/images/submenu_C2000e.gif";
 
-import Notice1 from "../../../public/images/notice_1.jpeg";
+import Notice1 from "../../../../public/images/notice_1.jpeg";
 
 function Post(props) {
   const [menu1, setMenu1] = React.useState(SubMenuC1000E);
@@ -98,14 +98,13 @@ function Post(props) {
                           <ArticleSection>
                             <ContentsWrap>
                               <TitleWrap>
-                                <Title>CEO's Message</Title>
+                                <Title>CEO 인사말</Title>
                               </TitleWrap>
                               <SubTitleWrap>
                                 <SubTitle>
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children.”
+                                  (주)제이온 " 엄마와 아이에게 필요한 모든
+                                  가능성" 이라는 이념아래 모든 엄마들을 위한
+                                  최고의 가치를 만들기 위해 노력하는 회사입니다.
                                 </SubTitle>
                               </SubTitleWrap>
                               <InformationWrap>
@@ -124,41 +123,25 @@ function Post(props) {
                               <Contents>
                                 <ContentsPara>
                                   <p>
-                                    J:ON is a company that tries to create the
-                                    highest value for all mothers under the
-                                    motto, “Every possible need for mothers and
-                                    children.”
+                                    (주)제이온 " 엄마와 아이에게 필요한 모든
+                                    가능성" 이라는 이념아래 모든 엄마들을 위한
+                                    최고의 가치를 만들기 위해 노력하는
+                                    회사입니다. 회사 창립 이후, 많은 부모님들은
+                                    건강하고 행복한 삶을 찾아 제품을 구매하기
+                                    시작했습니다. 우리 과자를 시식한 고객들은
+                                    맛있을 뿐만 아니라 동시에 매우 건강하다는
+                                    점에 놀라워합니다. 밝은 미래를 가져올 수
+                                    있도록 자신의 역할을 다해주신 모든 엄마
+                                    아빠들에게 우리는 깊은 감사를 드립니다.
                                   </p>
                                   <p>
-                                    Ever since J:ON was founded, parents have
-                                    bought their products in search of healthy
-                                    and happy life. Customers go home astounded
-                                    after trying our cookies, which are not only
-                                    delicious, but extremely healthy at the same
-                                    time. We would like to express our deep
-                                    gratitude for all mothers and fathers for
-                                    doing their part in bringing a brighter
-                                    future.
-                                  </p>
-                                  <p>
-                                    In 2013, we launched dried confectionary,
-                                    but we differentiated them from other
-                                    products by developing high-quality,
-                                    functional raw material. Since then, we put
-                                    all our efforts into becoming a total food
-                                    company, having our eyes set on something
-                                    beyond children food.
-                                  </p>
-                                  <p>
-                                    All the employees of J:ON are aware of the
-                                    fact that all our past achievements were
-                                    based upon trust and love from its
-                                    customers. Our vision is “a total food
-                                    company contributing to the health and
-                                    happiness of the human”. Thus, we promise
-                                    that we will do all we can to help out
-                                    infants and human life through the best
-                                    products and services. Thank you.
+                                    제이온의 모든 임직원들은 우리의 지난 모든
+                                    성과들이 고객의 신뢰와 사랑을 근간으로 한
+                                    것이라는 사실을 잘 알고 있습니다. 우리의
+                                    비전은 인간의 건강과 행복을 주는 종합식품
+                                    회사입니다. 따라서 우리는 최상의 제품과
+                                    서비스를 통해 아이와 사람에게 기여할 수 있는
+                                    모든 일을 할 것을 약속합니다. 감사합니다.
                                   </p>
                                 </ContentsPara>
                               </Contents>

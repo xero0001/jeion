@@ -22,6 +22,9 @@ import SubMenuA6000E from "../../../public/images/submenu_A6000e.gif";
 
 import A1000Img2 from "../../../public/images/A1000_img2.jpg";
 import A1000Img3 from "../../../public/images/kr/A1000_img3.jpeg";
+import A1000Img3_2 from "../../../public/images/kr/A1000_img3_2.jpg";
+import A1000Img3_3 from "../../../public/images/kr/A1000_img3_3.jpg";
+import A1000Img3_4 from "../../../public/images/kr/A1000_img3_4.jpg";
 
 import StoryBanner from "../../../components/kr/StoryBanner";
 
@@ -175,9 +178,10 @@ export default () => {
                         <dt>제이온(J:ON)이란?</dt>
                         <dd>
                           <p>
-                            온전 全에 담겨 있는 온전, 뚜렷함, 순수, 어울림의
-                            JEONBUK을 현대의 On으로 되살려 미래 지향적 가치를
-                            실현하고자 하는 의미입니다.
+                            온전 <span id="han">全</span>에 담겨 있는 온전,
+                            뚜렷함, 순수, 어울림의 JEONBUK을 현대의 On으로
+                            되살려 미래 지향적 가치를 실현하고자 하는
+                            의미입니다.
                           </p>
                         </dd>
                         <dd className="bg1"></dd>
@@ -204,6 +208,15 @@ export default () => {
                         <dt>B I</dt>
                         <dd className="bg3">
                           <img src={A1000Img3} alt="bi이미지" />
+                        </dd>
+                        <dd className="bg3">
+                          <img src={A1000Img3_2} alt="bi이미지" />
+                        </dd>
+                        <dd className="bg3">
+                          <img src={A1000Img3_3} alt="bi이미지" />
+                        </dd>
+                        <dd className="bg3">
+                          <img src={A1000Img3_4} alt="bi이미지" />
                         </dd>
                       </dl>
                     </li>
