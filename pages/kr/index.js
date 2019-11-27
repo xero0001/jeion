@@ -9,7 +9,7 @@ import StyleM from "../../components/kr/styles/StyleM";
 import MainBG from "../../public/images/mainbg_01.jpg";
 
 import Section2Img1 from "../../public/images/kr/section2_babyfood.jpg";
-import Section2Img2 from "../../public/images/kr/section2_yogurt.jpg";
+import Section2Img2 from "../../public/images/kr/section2_noodles.jpg";
 import Section2Img3 from "../../public/images/kr/section2_yogurt.jpg";
 
 import Section2Img4 from "../../public/images/kr/section2_kimcook.jpg";

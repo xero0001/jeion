@@ -4,7 +4,8 @@ import Link from "next/link";
 import StyleS from "../../../components/kr/styles/StyleS";
 
 import ProductsBanner from "../../../components/kr/ProductsBanner";
-import Img from "../../../public/images/kr/products_yogurt.jpg";
+import Img from "../../../public/images/kr/products_noodles.jpg";
+import Img2 from "../../../public/images/kr/products_noodles2.jpg";
 
 export default () => {
   return (
@@ -62,11 +63,6 @@ export default () => {
                           <span>김쿡</span>
                         </a>
                       </Link>
-                      <Link href="/kr/products/pasta">
-                        <a title="페이지로 이동">
-                          <span>쌀파스타</span>
-                        </a>
-                      </Link>
                       <Link href="/kr/products/bagelschip">
                         <a className="last" title="페이지로 이동">
                           <span>베이글칩</span>
@@ -76,7 +72,14 @@ export default () => {
 
                     <ul id="products_content">
                       <li className="list_a">
-                        <dl>유아국수이미지</dl>
+                        <dl>
+                          <dd>
+                            <img src={Img} />
+                          </dd>
+                          <dd>
+                            <img src={Img2} />
+                          </dd>
+                        </dl>
                       </li>
                       <li>
                         <dl>

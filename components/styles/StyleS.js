@@ -32,21 +32,21 @@ body {
       margin:0;
       padding:0;
       font-size:15px;
-      font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;
+      font-family:"Noto Sans",sans-serif;
       width:100%;
 	  overflow-y:scroll;  overflow-x:hidden;
 }
 
 .notice_li {display:flex; position:relative; margin-top:16px; min-height: 300px;}
-td											{ font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
+td											{ font-family:"Noto Sans",sans-serif;}
 img										{ margin:0; border:0; vertical-align:top;}
-div, dl, span							{ margin:0; padding:0; border:0; font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
+div, dl, span							{ margin:0; padding:0; border:0; font-family:"Noto Sans",sans-serif;}
 form										{ margin:0; padding:0; border:0;}
 ul, li, ol, dl, dt, dd, p, em		{ list-style:none; margin:0; padding:0;}
 em										{ list-style:none; margin:0; padding:0; font-size : 12px; font-style: normal; font-weight:bold;}
 table									{ border-collapse:collapse; border-spacing:0; }
 button									{ border:0; padding:0; background:transparent; cursor:pointer; overflow:visible;}
-input, select, option				{ vertical-align:middle; font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
+input, select, option				{ vertical-align:middle; font-family:"Noto Sans",sans-serif;}
 label										{ cursor:pointer; }
 a:link									{ text-decoration:none; color: #606060;}
 a:visited								{ text-decoration:none; color: #606060;}
@@ -72,6 +72,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #A3000_dt { font-size: 32px; font-weight:500;}
 #Suballbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}
 #Suballbg	 .container					{ position:relative; width:1000px; margin:0 auto;}
+#products_content .list_a{padding-top:28%;}
+#products_content .list_a img{width:100%;}
 
 #Suballbg	#Mainheader														{ position:relative; float:left; width:100%; height:100px; text-align:center; border-bottom:1px solid #dfdfdf; z-index:400;}
 #Suballbg	#Mainheader	#headerbox									{ position:relative; width:1000px; height:100px; margin:0 auto;text-align:left;}
@@ -148,7 +150,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Contents												{ width:1000px; height:auto;}
 
 .titleroad													{ position:relative; float:left; width:100%; height:60px; padding:0 0 20px 0; border-bottom:1px solid #E8E8E8;}
-.titleroad	.Subtitle									{ position:absolute;left:0; bottom:20px; width:310px; height:32px; font-size:30px; color:#343434; font-weight:normal; }
+.titleroad	.Subtitle									{ position:absolute;left:0; bottom:20px; width:100%; height:32px; font-size:30px; color:#343434; font-weight:normal; }
 .titleroad	.Position									{ position:absolute;right:3px;bottom:20px; width:auto; color:#777777;}
 .titleroad	.Position	img							{ vertical-align:middle;}
 .titleroad	.Position	a								{ color:#282828; font-size:14px; font-family: 'Source Sans Pro', sans-serif; letter-spacing:0;}
@@ -209,12 +211,13 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .sitemap ul li ul li ul li a					{ font-size:11px; color:#888; line-height:25px;}
 
 
-.tabmenu										{ position: relative;float:left; width:100%; height:45px; margin-bottom:8%;}
-.tabmenu a									{ display:block; float:left; width:24.8%; height:42px; text-align:center;font-weight:bold; line-height:43px; margin-bottom:3px; border:1px solid #d0d0d0; !important;border-right:none; cursor:pointer; background-color:#f9f9f9;}
+.tabmenu										{ position: relative;float:left; width:100%; height:45px; margin-bottom:8%; margin-top:8%;}
+.tabmenu a									{ display:block; float:left; width:32.8%; height:42px; text-align:center;font-weight:bold; line-height:43px; margin-bottom:3px; border:1px solid #d0d0d0; !important;border-right:none; cursor:pointer; background-color:#f9f9f9;}
 .tabmenu a.last							{ border-right:1px solid #d0d0d0;}
 .tabmenu a span							{ width:auto; height:42px; line-height:43px; color:#5A5046; font-size:16px; font-weight:normal; display:inline-block; }
 .tabmenu a.on								{ border:1px solid #484D53; background-color:#686A6C;}
 .tabmenu a.on span						{ font-size:16px; color:#fff;}
+.tabmenu a.long span						{ font-size:14px;}
 
 .tstyle											{ width:100%; border-collapse:collapse; margin-top:5%;}
 .tstyle th										{ word-break:break-all; text-align:center; padding:8px; border:1px solid #dbdee6; border-collapse:collapse; background:#f9f9f9; color:#343434;}
@@ -290,8 +293,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A4000	.txt_d	.none													{ float:right; width:22%; margin-right:0;}
 .A4000	.photo_b														{ position:absolute;right:0;top:0;  width:50%; height:100%; background:url(${A4000Bg2}) center no-repeat; background-size:cover; -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
 
-.A5000	li																	{ padding-bottom:25px; margin-bottom:30px; border-bottom:1px dotted #dfdfdf; display:inline-block;}
-.A5000	li	dl	dt															{ float:left; width:23%;}
+.A5000	li																	{ padding-bottom:25px; margin-bottom:30px; border-bottom:1px dotted #dfdfdf; display:inline-block; width:100%;}
+.A5000	li	dl	dt															{ float:left; width:23%; font-size: 38px; color:#8baa00; font-weight: 600;}
 .A5000	li	dl	dt	 img													{ padding-top:10px;}
 .A5000	li	dl	dd															{ float:left; width:75%;}
 .A5000	li	dl	dd	ul	li													{ width:100%; margin:0 0 10px 0; padding:0; border-bottom:none; display:inline-block;}
@@ -383,6 +386,9 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 @media all and (max-width:800px) {
 	#A3000_dt { font-size: 22px; font-weight:500;}
+	.A5000 li dl dt{
+		font-size:20px;
+	}
 	
 	#Suballbg																			{ width:100%; margin:0 auto;}
 	#Suballbg	 .container															{ width:400px; margin:0 auto;}
@@ -457,7 +463,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 	.sitemap ul li													{ width:90%; margin:0 5% 20px 5%;}
 	.sitemap ul li ul li:last-child								{ border-bottom:0;}
 	
-	.tabmenu a										{ width:24.3%; height:36px; line-height:35px;}
+	.tabmenu a										{ width:32.3%; height:36px; line-height:35px;}
 	.tabmenu a span								{ height:36px; line-height:35px; font-size:15px;}
 	.tabmenu a.on span						{ font-size:15px;}
 

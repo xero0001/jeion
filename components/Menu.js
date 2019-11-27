@@ -168,12 +168,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the
@@ -237,7 +237,7 @@ export default () => {
                 </div>
               </li>
               <li className="gnb2">
-                <Link href="/products/cookies">
+                <Link href="/products/noodles">
                   <a title="Our Products 메뉴로 이동">
                     <img
                       src={menuB}
@@ -273,12 +273,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the
@@ -295,8 +295,38 @@ export default () => {
                       <li className="depth2">
                         <ul>
                           <li>
-                            <Link href="/products/cookies">
-                              <a title="Cookies 메뉴로 이동">Cookies</a>
+                            <Link href="/products/noodles">
+                              <a title="Noodles 메뉴로 이동">
+                                Cheeki Monki Nutritious Baby Noodles
+                              </a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/products/yogurt">
+                              <a title="Yogurt 메뉴로 이동">
+                                Cheeki Monki Yogurt Cubes
+                              </a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/products/babyfood">
+                              <a title="Babyfood 메뉴로 이동">
+                                Beimei Nutritious Rice Cereal
+                              </a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/products/kimcook">
+                              <a title="Kimcook 메뉴로 이동">
+                                Cheeki Monki Seaweed Cook
+                              </a>
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="/products/bagelschip">
+                              <a title="Haus Backen 메뉴로 이동">
+                                Haus Backen Bagel Chip
+                              </a>
                             </Link>
                           </li>
                         </ul>
@@ -349,12 +379,12 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>CEO's Message</a>
                                 </Link>
                               </dt>
                               <dd>
-                                <Link href="contact/post/1">
+                                <Link href="/contact/post/1">
                                   <a>
                                     J:ON is a company that tries to create the
                                     highest value for all mothers under the

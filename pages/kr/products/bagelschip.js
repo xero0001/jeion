@@ -67,11 +67,6 @@ export default () => {
                           <span>김쿡</span>
                         </a>
                       </Link>
-                      <Link href="/kr/products/pasta">
-                        <a title="페이지로 이동">
-                          <span>쌀파스타</span>
-                        </a>
-                      </Link>
                       <Link href="/kr/products/bagelschip">
                         <a className="last on" title="페이지로 이동">
                           <span>베이글칩</span>

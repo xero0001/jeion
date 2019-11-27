@@ -17,9 +17,13 @@ import Section1Sub2 from "../public/images/section1_subject2.gif";
 import Section1Sub3 from "../public/images/section1_subject3.gif";
 import Section1Sub4 from "../public/images/section1_subject4.gif";
 
-import Section2Img1 from "../public/images/section2_img1.jpg";
-import Section2Img2 from "../public/images/section2_img2.jpg";
-import Section2Img3 from "../public/images/section2_img3.jpg";
+import Section2Img1 from "../public/images/kr/section2_babyfood.jpg";
+import Section2Img2 from "../public/images/kr/section2_noodles.jpg";
+import Section2Img3 from "../public/images/kr/section2_yogurt.jpg";
+
+import Section2Img4 from "../public/images/kr/section2_kimcook.jpg";
+// import Section2Img5 from "../../public/images/kr/yogurtcube.jpg";
+import Section2Img6 from "../public/images/kr/section2_bagel.jpg";
 
 import Section2Sub1 from "../public/images/section2_subject1.gif";
 import Section2Sub2 from "../public/images/section2_subject2.gif";
@@ -203,27 +207,26 @@ const Example = () => (
           </div>
           <div id="Section2">
             <dl>
-              <dt>
+              <dt id="sec_title">
                 <img
                   src={Section2Title}
                   width="387"
                   height="38"
-                  alt="Products &amp; Services"
+                  alt="Products and Services"
                 />
               </dt>
               <dd>
                 <ul>
                   <li>
                     <p>
-                      <img src={Section2Img2} alt="ABC Citron Cookies 이미지" />
+                      <img src={Section2Img2} alt="유아국수 이미지" />
                     </p>
                     <dl>
                       <dt>
-                        <img src={Section2Sub2} alt="ABC Citron Cookies" />
-                        <span>Citron Cookies</span>
+                        <span>Cheeki Monki Nutritious Baby Noodles</span>
                       </dt>
                       <dd>
-                        <Link href="/products/citroncookies">
+                        <Link href="/products/noodles">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -231,18 +234,16 @@ const Example = () => (
                       </dd>
                     </dl>
                   </li>
-
                   <li>
                     <p>
-                      <img src={Section2Img3} alt="ABC Laver Cookies 이미지" />
+                      <img src={Section2Img3} alt="요거트큐브 이미지" />
                     </p>
                     <dl>
                       <dt>
-                        <img src={Section2Sub3} alt="ABC Laver Cookies" />
-                        <span>Laver Cookies</span>
+                        <span>Cheeki Monki Yogurt Cubes</span>
                       </dt>
                       <dd>
-                        <Link href="/products/lavercookies">
+                        <Link href="/products/yogurt">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -250,18 +251,54 @@ const Example = () => (
                       </dd>
                     </dl>
                   </li>
-
                   <li>
                     <p>
-                      <img src={Section2Img1} alt="ABC Cheese Cookies 이미지" />
+                      <img src={Section2Img1} alt="쌀이유식 이미지" />
                     </p>
                     <dl>
                       <dt>
-                        <img src={Section2Sub1} alt="ABC Cheese Cookies" />
-                        <span>Cheese Cookies</span>
+                        <span>Beimei Nutritious Rice Cereal</span>
                       </dt>
                       <dd>
-                        <Link href="/products/cheesecookies">
+                        <Link href="/products/babyfood">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </dd>
+              <dd>
+                <ul>
+                  <li className="main_padding">
+                    <p>
+                      <img src={Section2Img4} alt="김쿡 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Cheeki Monki Seaweed Cook</span>
+                      </dt>
+                      <dd>
+                        <Link href="/products/kimcook">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                  <li className="main_padding">
+                    <p>
+                      <img src={Section2Img6} alt="베이글칩 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Haus Backen Bagel Chip</span>
+                      </dt>
+                      <dd>
+                        <Link href="/products/bagelschip">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -308,12 +345,12 @@ const Example = () => (
                       <li>
                         <dl>
                           <dt>
-                            <Link href="contact/post/1">
+                            <Link href="/contact/post/1">
                               <a>CEO's Message</a>
                             </Link>
                           </dt>
                           <dd>
-                            <Link href="contact/post/1">
+                            <Link href="/contact/post/1">
                               <a>
                                 J:ON is a company that tries to create the
                                 highest value for all mothers under the motto,

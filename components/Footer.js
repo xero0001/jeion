@@ -55,71 +55,39 @@ export default () => {
                   <dl>
                     <dt>
                       <Link href="/story/about">
-                        <a title="Go to Our Story">
-                          <img src={CopyA0000} alt="Our Story" />
-                        </a>
+                        <a title="Go to Our Story">OUR STORY</a>
                       </Link>
                     </dt>
                     <dd>
                       <Link href="/story/about">
-                        <a title="Go to About J:on">
-                          <img
-                            src={CopyA1000}
-                            width="60"
-                            height="14"
-                            alt="About J:on"
-                          />
-                        </a>
+                        <a title="Go to About J:on">About J:on</a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/story/vision">
-                        <a title="Go to Our Vision">
-                          <img src={CopyA2000} alt="Our Vision" />
-                        </a>
+                        <a title="Go to Our Vision">Our Vision</a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/story/message">
-                        <a title="Go to CEO's Message">
-                          <img src={CopyA3000} alt="CEO's Message" />
-                        </a>
+                        <a title="Go to CEO's Message">CEO's Message</a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/story/philosophy">
                         <a title="Go to Management Philosophy">
-                          <img
-                            src={CopyA4000}
-                            width="134"
-                            height="14"
-                            alt="Management Philosophy"
-                          />
+                          Management Philosophy
                         </a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/story/history">
-                        <a title="Go to Our History">
-                          <img
-                            src={CopyA5000}
-                            width="65"
-                            height="14"
-                            alt="Our History"
-                          />
-                        </a>
+                        <a title="Go to Our History">Our History</a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/story/location">
-                        <a title="Go to Location">
-                          <img
-                            src={CopyA6000}
-                            width="49"
-                            height="14"
-                            alt="Location"
-                          />
-                        </a>
+                        <a title="Go to Location">Location</a>
                       </Link>
                     </dd>
                   </dl>
@@ -127,27 +95,33 @@ export default () => {
                 <li>
                   <dl>
                     <dt>
-                      <Link href="/products/cookies">
-                        <a title="Go to Our Products">
-                          <img
-                            src={CopyB0000}
-                            width="100"
-                            height="16"
-                            alt="Our Products"
-                          />
-                        </a>
+                      <Link href="/products/noodles">
+                        <a title="Go to Our Products">OUR PRODUCT</a>
                       </Link>
                     </dt>
                     <dd>
-                      <Link href="/products/cookies">
-                        <a title="Go to Cookies">
-                          <img
-                            src={CopyB1000}
-                            width="45"
-                            height="15"
-                            alt="Cookies"
-                          />
-                        </a>
+                      <Link href="/products/noodles">
+                        <a title="Go to Cookies">Baby Noodles</a>
+                      </Link>
+                    </dd>
+                    <dd>
+                      <Link href="/products/yogurt">
+                        <a title="Go to Cookies">Yogurt Cubes</a>
+                      </Link>
+                    </dd>
+                    <dd>
+                      <Link href="/products/babyfood">
+                        <a title="Go to Cookies">Rice Cereal</a>
+                      </Link>
+                    </dd>
+                    <dd>
+                      <Link href="/products/kimcook">
+                        <a title="Go to Cookies">Seaweed Cook</a>
+                      </Link>
+                    </dd>
+                    <dd>
+                      <Link href="/products/bagelschip">
+                        <a title="Go to Cookies">Bagel Chip</a>
                       </Link>
                     </dd>
                   </dl>
@@ -156,38 +130,17 @@ export default () => {
                   <dl>
                     <dt>
                       <Link href="/contact/notice">
-                        <a title="Go to Contact Us">
-                          <img
-                            src={CopyC0000}
-                            width="80"
-                            height="16"
-                            alt="Contact Us"
-                          />
-                        </a>
+                        <a title="Go to Contact Us">CONTACT US</a>
                       </Link>
                     </dt>
                     <dd>
                       <Link href="/contact/notice">
-                        <a title="Go to Notice">
-                          <img
-                            src={CopyC1000}
-                            width="37"
-                            height="15"
-                            alt="Notice"
-                          />
-                        </a>
+                        <a title="Go to Notice">Notice</a>
                       </Link>
                     </dd>
                     <dd>
                       <Link href="/contact/contact">
-                        <a title="Go to Contact Us">
-                          <img
-                            src={CopyC2000}
-                            width="61"
-                            height="15"
-                            alt="Contact Us"
-                          />
-                        </a>
+                        <a title="Go to Contact Us">Contact Us</a>
                       </Link>
                     </dd>
                   </dl>

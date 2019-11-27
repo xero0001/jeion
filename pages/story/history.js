@@ -174,55 +174,59 @@ export default () => {
                   <ul className="A5000">
                     <li>
                       <dl>
-                        <dt>
-                          <img src={A50002015} alt="2015" />
-                        </dt>
+                        <dt>2019</dt>
                         <dd>
                           <ul>
                             <li>
-                              <strong>Jan 2015</strong>{" "}
+                              <strong>Nov. 2019</strong>{" "}
                               <span>
                                 <p>
-                                  Korea International Trade Association member
-                                  registration
+                                  Introduced in Incheon Airport City/SM Duty
+                                  Free Shop
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Feb 2015</strong>
+                              <strong>Oct. 2019</strong>{" "}
                               <span>
                                 <p>
-                                  Patent registration for soft cookie containing
-                                  sweet potato cream
-                                </p>
-                                <p>
-                                  Started to export ABC Cookie (laver, cheese)
-                                  to China
+                                  Received commendation for development of food
+                                  industry (Minister of Agriculture, Food and
+                                  Rural Affairs)
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Apr 2015</strong>{" "}
+                              <strong>Sep. 2019</strong>{" "}
+                              <span>
+                                <p>Launched products in NAVER Smart Store</p>
+                              </span>
+                            </li>
+                            <li>
+                              <strong>Jun. 2019</strong>{" "}
                               <span>
                                 <p>
-                                  Selected as the company of “Export Capability
-                                  Building Program” by Small and Medium Business
-                                  Administration
+                                  Received International Taste Recognition Award
+                                  of International Taste &amp; Quality Institute
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Aug 2015</strong>{" "}
+                              <strong>May 2019</strong>{" "}
                               <span>
-                                <p>Operated K-Food Fair Qingdao 2015</p>
+                                <p>
+                                  Received Innovation Award in processed food
+                                  section from Thailand THAIFEX{" "}
+                                </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Sep 2015</strong>{" "}
+                              <strong>Jan. 2019</strong>{" "}
                               <span>
                                 <p>
-                                  Launched comprehensive food brand for infants
-                                  and children, "Cheeki Monki."
+                                  Started regular donation linked to
+                                  international relief organization “Good
+                                  Neighbors” for poor children (Bangladesh)
                                 </p>
                               </span>
                             </li>
@@ -232,77 +236,141 @@ export default () => {
                     </li>
                     <li>
                       <dl>
-                        <dt>
-                          <img src={A50002014} alt="2014" />
-                        </dt>
+                        <dt>2018</dt>
                         <dd>
                           <ul>
                             <li>
-                              <strong>Jan 2014</strong>{" "}
+                              <strong>Mar. 2018</strong>{" "}
                               <span>
                                 <p>
-                                  Started a regular sponsorship, collaborating
-                                  with Jeollabuk-do Disabled Welfare Center
+                                  Moved into national food cluster (Material
+                                  processing and packaging line)
+                                </p>
+                              </span>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt>2017</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              <strong>Dec. 2017</strong>{" "}
+                              <span>
+                                <p>
+                                  Acquired Chinese GB certification (4 kinds of
+                                  baby noodles)
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Feb 2014</strong>{" "}
+                              <strong>July 2017</strong>{" "}
+                              <span>
+                                <p>Certified as venture business </p>
+                              </span>
+                            </li>
+                            <li>
+                              <strong>Apr. 2017</strong>{" "}
                               <span>
                                 <p>
-                                  Established R &amp; D conference to promote
-                                  local materials in Jeollabuk-do
+                                  Certified as research institute of Jeonbuk
+                                  research district{" "}
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Apr 2014</strong>{" "}
+                              <strong>Jan. 2017</strong>{" "}
                               <span>
                                 <p>
-                                  Completed development for five kinds of milk
-                                  candy to improve lactose intolerance{" "}
+                                  (Preliminary) Designated as certified social
+                                  enterprise (No. 2016-041 / Other type)
+                                </p>
+                              </span>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt>2016</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              <strong>Dec. 2016</strong>{" "}
+                              <span>
+                                <p>
+                                  Participated in Sejong University Technology
+                                  Holding Company (Team of Professor Yoo
+                                  Sang-ho)
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Aug 2014</strong>{" "}
+                              <strong>Jan. 2016</strong>{" "}
                               <span>
                                 <p>
-                                  Completed the product development of noodle
-                                  (six different kinds) for Chinese market and
-                                  initiated sales
+                                  Received Excellence Award for achievement in
+                                  academic-industry cooperation (President,
+                                  Chonbuk National University){" "}
+                                </p>
+                              </span>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt>2015</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              <strong>Jan. 2015</strong>{" "}
+                              <span>
+                                <p>
+                                  Received Excellence Award in Jeollabuk-do High
+                                  Value-added Business Experts' Competition: 2
+                                  types of ABC cookies
+                                </p>
+                              </span>
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </li>
+                    <li>
+                      <dl>
+                        <dt>2014</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              <strong>Dec. 2014</strong>{" "}
+                              <span>
+                                <p>
+                                  Received Excellent SME Award (Head of
+                                  Jeollabukdo Business Agency){" "}
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Oct 2014</strong>{" "}
+                              <strong>Apr. 2014</strong>{" "}
                               <span>
                                 <p>
-                                  Patent registration for vinegar and vinegar
-                                  drinks using raspberry lees and mulberry lees
+                                  Established R&amp;D meeting to revitalize
+                                  regional companies in Jeollabuk-do
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Nov 2014</strong>{" "}
+                              <strong>Jan. 2014</strong>{" "}
                               <span>
                                 <p>
-                                  Completed development of laver cookie and
-                                  cheese cookie, utilizing local resources
-                                </p>
-                              </span>
-                            </li>
-                            <li>
-                              <strong>Dec 2014</strong>
-                              <span>
-                                <p>
-                                  Awarded as an excellent company by
-                                  Jeollabuk-do Small Business Hope Center
-                                </p>
-                                <p>
-                                  Received Jeollabuk-do High Value-Added
-                                  Business Professional Fair Excellence Award:
-                                  For cookie in two different kinds
+                                  Started regular donation liked to Jeollabuk-do
+                                  Disabled Welfare Center
                                 </p>
                               </span>
                             </li>
@@ -312,62 +380,52 @@ export default () => {
                     </li>
                     <li className="noline">
                       <dl>
-                        <dt>
-                          <img src={A50002013} alt="2013" />
-                        </dt>
+                        <dt>2013 </dt>
                         <dd>
                           <ul>
+                            <li>
+                              <strong>Oct. 2013</strong>{" "}
+                              <span>
+                                <p>
+                                  Relocated company (Oct. 8, Yeoui-dong,
+                                  Deokjin-gu, Jeonju)
+                                </p>
+                                <p>
+                                  Started regular donation linked to
+                                  international relief organization “Good
+                                  Neighbors” for poor children (Myanmar)
+                                </p>
+                              </span>
+                            </li>
+                            <li>
+                              <strong>Sept. 2013</strong>{" "}
+                              <span>
+                                <p>
+                                  Established company (Sept. 11, JEION Co.,
+                                  Ltd.)
+                                </p>
+                                <p>
+                                  Started exporting baby cookies to China (Sept.
+                                  13)
+                                </p>
+                              </span>
+                            </li>
                             <li>
                               <strong>May 2013</strong>{" "}
                               <span>
                                 <p>
-                                  Opened main office (3-2, Seogok 5-gil,
-                                  Wansan-gu, Jeonju-si)
+                                  Opened office (Seogok 5-gil, Wansan-gu,
+                                  Jeonju)
                                 </p>
                               </span>
                             </li>
                             <li>
-                              <strong>Aug 2013</strong>{" "}
+                              <strong>Apr. 2013</strong>{" "}
                               <span>
                                 <p>
-                                  Developed functional cookie prototypes for
-                                  children (citron cookies) utilizing popular
-                                  exporting materials
-                                </p>
-                              </span>
-                            </li>
-                            <li>
-                              <strong>Sep 2013</strong>{" "}
-                              <span>
-                                <p>Company establishment (Sep 11, J:ON Ltd.)</p>
-                                <p>
-                                  Trader registration (Korea International Trade
-                                  Association)
-                                </p>
-                                <p>Started to export citrus cookies to China</p>
-                                <p>
-                                  Chonbuk National University Family Business
-                                  Registration (Chonbuk National University LINC
-                                  Business committee)
-                                </p>
-                              </span>
-                            </li>
-
-                            <li>
-                              <strong>Oct 2013</strong>{" "}
-                              <span>
-                                <p>
-                                  Moved company (October 8, Yeoui-dong,
-                                  Deokjin-gu, Jeonju-si)
-                                </p>
-                                <p>
-                                  Started to regularly sponsor poor children
-                                  collaborating with an international relief
-                                  organization, "Good Neighbors," (Myanmar)
-                                </p>
-                                <p>
-                                  Held product promotion events in Shanghai and
-                                  Shandong in China
+                                  Selected as the 2nd start-up team for social
+                                  entrepreneurship incubation project
+                                  (Jeollabukdo Business Agency)
                                 </p>
                               </span>
                             </li>
@@ -375,7 +433,7 @@ export default () => {
                         </dd>
                       </dl>
                     </li>
-                  </ul>{" "}
+                  </ul>
                 </div>
               </div>
               <hr />

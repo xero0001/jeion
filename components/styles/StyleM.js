@@ -185,7 +185,7 @@ const StyleM = () => (
 #MainContents	#Section2	dl	dd	ul	li	p						{ padding-bottom:6%;}
 #MainContents	#Section2	dl	dd	ul	li	dl						{ width:100%; text-align:center;}
 #MainContents	#Section2	dl	dd	ul	li	dl	dt					{ height:30px; margin:0; background:none;}
-#MainContents	#Section2	dl	dd	ul	li	dl	dt	 span		{ display:none;}
+#MainContents	#Section2	dl	dd	ul	li	dl	dt	 span		{ }
 #MainContents	#Section2	.btn										{ font-size:12px; letter-spacing:0; color:#3D3D3D; font-weight:bold; border:1px solid #ccc; padding:1.5% 8% 1.5% 6%; margin-top:1%; display:inline-block; background:url(${BtnArrow}) right center no-repeat;}
 
 #MainContents	#Section3												{ position:relative; float:left; width:100%;}
@@ -225,7 +225,10 @@ const StyleM = () => (
 #Footer    #Copyright	.copybox	.bottommenu	ul										{ position:relative; float:left; width:100%;}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li									{ position:relative; float:left; margin-right:40px;}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dt							{ padding-bottom:15px;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dt  a						{ font-size: 14px; font-weight:900; color:rgb(120,120,120);}
 #Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd						{ margin-bottom:7px; line-height:0;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd  a					{ font-size:13px; line-height: 15px; font-weight:700;}
+#Footer    #Copyright	.copybox	.bottommenu	ul	li	dl	dd  a:hover					{ color:rgb(96,96,96);}
 #Footer    #Copyright	.copybox	.bottommap												{ position:relative; float:right; width:490px; height:148px; margin-top:35px; }
 #Footer    #Copyright  .copybox	.bottommap	.ad1										{ position:relative; float:left; margin-top:10px;}
 #Footer    #Copyright  .copybox	.bottommap	.ad2										{ display:none;}
