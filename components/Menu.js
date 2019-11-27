@@ -83,7 +83,7 @@ export default () => {
                       <a
                         href="/"
                         target="_blank"
-                        title="새창으로 중문홈페이지로 이동"
+                        title="새창으로 한국어홈페이지로 이동"
                       >
                         <img
                           src={VersionKrImg}

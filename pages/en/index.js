@@ -127,7 +127,7 @@ const Example = () => (
                         for children
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/en/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -150,7 +150,7 @@ const Example = () => (
                         <span></span>Healthy drinks with natural ingredients
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/en/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -171,7 +171,7 @@ const Example = () => (
                       </dt>
                       <dd>Dietary supplement to help..</dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/en/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -195,7 +195,7 @@ const Example = () => (
                         marketing..
                       </dd>
                       <dd className="more">
-                        <Link href="/story/philosophy">
+                        <Link href="/en/story/philosophy">
                           <a title="페이지로 이동">MORE →</a>
                         </Link>
                       </dd>
@@ -226,7 +226,7 @@ const Example = () => (
                         <span>Cheeki Monki Nutritious Baby Noodles</span>
                       </dt>
                       <dd>
-                        <Link href="/products/noodles">
+                        <Link href="/en/products/noodles">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -243,7 +243,7 @@ const Example = () => (
                         <span>Cheeki Monki Yogurt Cubes</span>
                       </dt>
                       <dd>
-                        <Link href="/products/yogurt">
+                        <Link href="/en/products/yogurt">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -260,7 +260,7 @@ const Example = () => (
                         <span>Beimei Nutritious Rice Cereal</span>
                       </dt>
                       <dd>
-                        <Link href="/products/babyfood">
+                        <Link href="/en/products/babyfood">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -281,7 +281,7 @@ const Example = () => (
                         <span>Cheeki Monki Seaweed Cook</span>
                       </dt>
                       <dd>
-                        <Link href="/products/kimcook">
+                        <Link href="/en/products/kimcook">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -298,7 +298,7 @@ const Example = () => (
                         <span>Haus Backen Bagel Chip</span>
                       </dt>
                       <dd>
-                        <Link href="/products/bagelschip">
+                        <Link href="/en/products/bagelschip">
                           <a title=" 페이지로 이동" className="btn">
                             Read More
                           </a>
@@ -323,7 +323,7 @@ const Example = () => (
               <dd className="banner">
                 <ul>
                   <li>
-                    <Link href="/story/message">
+                    <Link href="/en/story/message">
                       <a title="CEO’s Message 페이지로 이동">
                         <img
                           src={Section3Ban1}
@@ -345,12 +345,12 @@ const Example = () => (
                       <li>
                         <dl>
                           <dt>
-                            <Link href="/contact/post/1">
+                            <Link href="/en/contact/post/1">
                               <a>CEO's Message</a>
                             </Link>
                           </dt>
                           <dd>
-                            <Link href="/contact/post/1">
+                            <Link href="/en/contact/post/1">
                               <a>
                                 J:ON is a company that tries to create the
                                 highest value for all mothers under the motto,
@@ -365,7 +365,7 @@ const Example = () => (
                   </dd>
                 </dl>
                 <p>
-                  <Link href="/contact/notice">
+                  <Link href="/en/contact/notice">
                     <a title="공지사항 게시판으로 이동">
                       <img
                         src={Section3More}

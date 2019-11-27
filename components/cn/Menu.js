@@ -10,6 +10,7 @@ import VersionBgImg from "../../public/images/version_bg.gif";
 import VersionLaImg from "../../public/images/version_la.gif";
 import VersionEnImg from "../../public/images/version_en.gif";
 import VersionChImg from "../../public/images/version_ch.gif";
+import VersionKrImg from "../../public/images/version_kr.jpg";
 
 import MenuAImg from "../../public/images/cn/menu_A0000.gif";
 import MenuBImg from "../../public/images/cn/menu_B0000.gif";
@@ -61,19 +62,18 @@ export default () => {
             <h2>LANGUAGE</h2>
             <dl>
               <dt
+                className="ptr"
                 css={css`
                   background: url("${VersionBgImg}") left top no-repeat;
                 `}
               >
                 <span>
-                  <a href="#" title="페이지로 이동">
-                    <img
-                      src={VersionLaImg}
-                      width="68"
-                      height="17"
-                      alt="LANGUAGE"
-                    />
-                  </a>
+                  <img
+                    src={VersionLaImg}
+                    width="68"
+                    height="17"
+                    alt="LANGUAGE"
+                  />
                 </span>
               </dt>
               <dd className={language}>
@@ -82,6 +82,22 @@ export default () => {
                     <span>
                       <a
                         href="/"
+                        target="_blank"
+                        title="새창으로 한국어홈페이지로 이동"
+                      >
+                        <img
+                          src={VersionKrImg}
+                          width="75"
+                          height="17"
+                          alt="KOREAN"
+                        />
+                      </a>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      <a
+                        href="/en"
                         target="_blank"
                         title="새창으로 영문홈페이지로 이동"
                       >
@@ -107,17 +123,6 @@ export default () => {
                           height="17"
                           alt="CHINESE"
                         />
-                      </a>
-                    </span>
-                  </li>
-                  <li>
-                    <span>
-                      <a
-                        href="/kr"
-                        target="_blank"
-                        title="새창으로 중문홈페이지로 이동"
-                      >
-                        KOREAN
                       </a>
                     </span>
                   </li>

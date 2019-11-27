@@ -20,11 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/en": [
+    "/cn": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/en/contact/contact": [
+    "/en": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -36,38 +36,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/en/products/babyfood": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/products/bagelschip": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/products/kimcook": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/products/noodles": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/products/yogurt": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/story/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/story/history": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/story/location": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/en/story/message": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -76,15 +44,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/en/story/vision": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/kr/contact/notice": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
