@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { withRouter } from "next/router";
-import StyleS from "../../../../components/styles/StyleS";
-import ContactBanner from "../../../../components/ContactBanner";
+import StyleS from "../../../../components/kr/styles/StyleS";
+import ContactBanner from "../../../../components/kr/ContactBanner";
 import Link from "next/link";
 
 import SubMenuC1000 from "../../../../public/images/submenu_C1000.gif";
