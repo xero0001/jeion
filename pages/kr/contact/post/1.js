@@ -27,7 +27,7 @@ function Post(props) {
             <div id="Contents">
               <div className="titleroad">
                 <div className="Subtitle">
-                  <h4>Notice</h4>
+                  <h4>공지사항</h4>
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
@@ -36,12 +36,12 @@ function Post(props) {
                   </Link>{" "}
                   &gt;{" "}
                   <Link href="/kr/contact/notice">
-                    <a title="Contact Us 메뉴로 이동하기">Contact Us</a>
+                    <a title="Contact Us 메뉴로 이동하기">고객문의</a>
                   </Link>{" "}
                   &gt;
                   <a href="#Start" title="Notice 본문 바로가기">
                     {" "}
-                    <em className="highlight">Notice</em>
+                    <em className="highlight">공지사항</em>
                   </a>{" "}
                 </div>
               </div>
