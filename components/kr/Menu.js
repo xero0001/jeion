@@ -175,7 +175,7 @@ export default () => {
                                   </a>
                                 </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>
@@ -258,19 +258,21 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>CEO 인사말</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>
+                                    (주)제이온 " 엄마와 아이에게 필요한 모든
+                                    가능성" 이라는 이념아래 모든 엄마들을 위한
+                                    최고의 가치를 만들기 위해 노력하는
+                                    회사입니다.
+                                  </a>
+                                </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>
@@ -346,19 +348,21 @@ export default () => {
                           <dd>
                             <dl>
                               <dt>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  CEO's Message
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>CEO 인사말</a>
+                                </Link>
                               </dt>
                               <dd>
-                                <a href="inner.php?sMenu=C1000&amp;mode=view&amp;no=5">
-                                  J:ON is a company that tries to create the
-                                  highest value for all mothers under the motto,
-                                  “Every possible need for mothers and
-                                  children”.Ever since..
-                                </a>
+                                <Link href="/kr/contact/post/1">
+                                  <a>
+                                    (주)제이온 " 엄마와 아이에게 필요한 모든
+                                    가능성" 이라는 이념아래 모든 엄마들을 위한
+                                    최고의 가치를 만들기 위해 노력하는
+                                    회사입니다.
+                                  </a>
+                                </Link>
                               </dd>
-                              <dd className="data">2016.02.16</dd>
+                              <dd className="data">2019.11.23</dd>
                             </dl>
                           </dd>
                         </dl>
@@ -372,7 +376,7 @@ export default () => {
                           </li>
                           <li>
                             <Link href="/kr/contact/contact">
-                              <a title="Contact Us  메뉴로 이동">고객문의</a>
+                              <a title="Contact Us 메뉴로 이동">고객문의</a>
                             </Link>
                           </li>
                         </ul>
@@ -380,8 +384,8 @@ export default () => {
                       <li className="info">
                         <img src={TextBgCImg} />
                         <p>
-                          We are committed to using the best ingredients to give
-                          you the great tasting products.
+                          제이온은 여러분께 맛있는 제품을 제공해드리기 위해
+                          최선을 다해 엄선된 재료만을 사용합니다.
                         </p>
                       </li>
                     </ul>

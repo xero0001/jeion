@@ -20,7 +20,7 @@ import Section2Sub1 from "../../public/images/section2_subject1.gif";
 import Section2Sub2 from "../../public/images/section2_subject2.gif";
 import Section2Sub3 from "../../public/images/section2_subject3.gif";
 
-import Section3Ban1 from "../../public/images/section3_banner1.jpg";
+import Section3Ban1 from "../../public/images/kr/section3_banner1.jpeg";
 import Section3Sub from "../../public/images/section3_subject.gif";
 import Section3More from "../../public/images/section3_more.gif";
 
@@ -292,14 +292,13 @@ const Example = () => (
                           <dd>
                             <Link href="/kr/contact/post/1">
                               <a>
-                                J:ON is a company that tries to create the
-                                highest value for all mothers under the motto,
-                                “Every possible need for mothers and
-                                children”.Ever since J:ON was founded, p..
+                                (주)제이온 " 엄마와 아이에게 필요한 모든 가능성"
+                                이라는 이념아래 모든 엄마들을 위한 최고의 가치를
+                                만들기 위해 노력하는 회사입니다.
                               </a>
                             </Link>
                           </dd>
-                          <dd className="data">2016.02.16</dd>
+                          <dd className="data">2019.11.23</dd>
                         </dl>
                       </li>
                     </ul>
