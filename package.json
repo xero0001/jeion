@@ -13,7 +13,8 @@
     "next": "latest",
     "next-images": "^1.2.0",
     "react": "16.10.1",
-    "react-dom": "16.10.1"
+    "react-dom": "16.10.1",
+    "react-google-maps": "^9.4.5"
   },
   "devDependencies": {
     "babel-plugin-emotion": "10.0.19",

@@ -20,35 +20,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/cn": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/contact/notice": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/contact/post/1": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/story/message": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/en/story/philosophy": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/next/dist/pages/_error": [
+    "/kr/story/location": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

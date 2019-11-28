@@ -3,6 +3,12 @@ import { css } from "@emotion/core";
 import styled from "@emotion/styled";
 import tw from "tailwind.macro";
 import Link from "next/link";
+import {
+  GoogleMap,
+  withScriptjs,
+  withGoogleMap,
+  Marker
+} from "react-google-maps";
 
 import StyleS from "../../../components/styles/StyleS";
 
@@ -25,6 +31,17 @@ import A50002014 from "../../../public/images/A5000_2014.jpg";
 import A50002013 from "../../../public/images/A5000_2013.jpg";
 
 import StoryBanner from "../../../components/StoryBanner";
+
+function Map() {
+  return (
+    <GoogleMap defaultZoom={17} defaultCenter={defaultCenter}>
+      <Marker position={defaultCenter} />
+    </GoogleMap>
+  );
+}
+const WrappedMap = withScriptjs(withGoogleMap(Map));
+
+const defaultCenter = { lng: 127.091095, lat: 35.816165 };
 
 export default () => {
   const [menu1, setMenu1] = React.useState(SubMenuA1000);
@@ -182,7 +199,30 @@ export default () => {
                     <li className="PB20">
                       <strong>Fax</strong> +82-63-278-3244
                     </li>
-                    <li className="map">GOOGLE MAPS IN DEVELOP</li>
+                    <li className="map">
+                      <WrappedMap
+                        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyDq1FdFCJKHueIYHniWlCiHMDpSWJW0u3Y`}
+                        loadingElement={
+                          <div
+                            style={{
+                              height: "400px",
+                              width: "100%",
+                              margin: "auto"
+                            }}
+                          />
+                        }
+                        containerElement={
+                          <div
+                            style={{
+                              height: "400px",
+                              width: "100%",
+                              margin: "auto"
+                            }}
+                          />
+                        }
+                        mapElement={<div style={{ height: "100%" }} />}
+                      />
+                    </li>
                   </ul>
                 </div>
               </div>
