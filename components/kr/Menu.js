@@ -26,6 +26,10 @@ import TextBgAImg from "../../public/images/textbg_A.png";
 import TextBgBImg from "../../public/images/textbg_B.png";
 import TextBgCImg from "../../public/images/textbg_C.png";
 
+import Header_Icon1 from "../../public/images/header_icon1.png";
+import Header_Icon2 from "../../public/images/header_icon2.png";
+import Header_Icon3 from "../../public/images/header_icon3.png";
+
 export default () => {
   const [menuA, setMenuA] = React.useState(MenuAImg);
   const [menuB, setMenuB] = React.useState(MenuBImg);
@@ -49,6 +53,31 @@ export default () => {
     <>
       <StyleM />
       <div id="Mainheader">
+        <div id="snsbox">
+          <div id="snssub">
+            <div id="snswrapper">
+              <div id="sns">
+                <a
+                  href="https://smartstore.naver.com/jeionshop"
+                  target="_blank"
+                >
+                  <img src={Header_Icon1} />
+                </a>
+              </div>
+              <div id="sns">
+                <a href="https://www.instagram.com/jeionfood" target="_blank">
+                  <img src={Header_Icon2} />
+                </a>
+              </div>
+              <div id="sns">
+                <a href="https://blog.naver.com/jeion_korea" target="_blank">
+                  <img src={Header_Icon3} />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
         <div id="headerbox">
           <h2>LOGO</h2>
           <div className="logo">

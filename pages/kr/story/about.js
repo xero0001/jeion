@@ -21,7 +21,7 @@ import SubMenuA5000E from "../../../public/images/submenu_A5000e.gif";
 import SubMenuA6000E from "../../../public/images/submenu_A6000e.gif";
 
 import A1000Img2 from "../../../public/images/A1000_img2.jpg";
-import A1000Img3 from "../../../public/images/kr/A1000_img3.jpeg";
+import A1000Img3 from "../../../public/images/kr/A1000_img3.jpg";
 import A1000Img3_2 from "../../../public/images/kr/A1000_img3_2.jpg";
 import A1000Img3_3 from "../../../public/images/kr/A1000_img3_3.jpg";
 import A1000Img3_4 from "../../../public/images/kr/A1000_img3_4.jpg";
@@ -208,15 +208,6 @@ export default () => {
                         <dt>B I</dt>
                         <dd className="bg3">
                           <img src={A1000Img3} alt="bi이미지" />
-                        </dd>
-                        <dd className="bg3">
-                          <img src={A1000Img3_2} alt="bi이미지" />
-                        </dd>
-                        <dd className="bg3">
-                          <img src={A1000Img3_3} alt="bi이미지" />
-                        </dd>
-                        <dd className="bg3">
-                          <img src={A1000Img3_4} alt="bi이미지" />
                         </dd>
                       </dl>
                     </li>

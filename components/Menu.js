@@ -302,36 +302,28 @@ export default () => {
                           <li>
                             <Link href="/en/products/noodles">
                               <a title="Noodles 메뉴로 이동">
-                                Cheeki Monki Nutritious Baby Noodles
+                                Nutritious Baby Noodles
                               </a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/en/products/yogurt">
-                              <a title="Yogurt 메뉴로 이동">
-                                Cheeki Monki Yogurt Cubes
-                              </a>
+                              <a title="Yogurt 메뉴로 이동">Yogurt Cubes</a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/en/products/babyfood">
-                              <a title="Babyfood 메뉴로 이동">
-                                Beimei Nutritious Rice Cereal
-                              </a>
+                              <a title="Babyfood 메뉴로 이동">Rice Cereal</a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/en/products/kimcook">
-                              <a title="Kimcook 메뉴로 이동">
-                                Cheeki Monki Seaweed Cook
-                              </a>
+                              <a title="Kimcook 메뉴로 이동">Seaweed Cook</a>
                             </Link>
                           </li>
                           <li>
                             <Link href="/en/products/bagelschip">
-                              <a title="Haus Backen 메뉴로 이동">
-                                Haus Backen Bagel Chip
-                              </a>
+                              <a title="Haus Backen 메뉴로 이동">Bagel Chip</a>
                             </Link>
                           </li>
                         </ul>

@@ -47,28 +47,28 @@ export default () => {
                   <div className="B1100">
                     <div className="tabmenu">
                       <Link href="/en/products/noodles">
-                        <a className="long" title="페이지로 이동">
-                          <span>Cheeki Monki Nutritious Baby Noodles</span>
+                        <a title="페이지로 이동">
+                          <span>Nutritious Baby Noodles</span>
                         </a>
                       </Link>
                       <Link href="/en/products/yogurt">
                         <a title="페이지로 이동">
-                          <span>Cheeki Monki Yogurt Cubes</span>
+                          <span>Yogurt Cubes</span>
                         </a>
                       </Link>
                       <Link href="/en/products/babyfood">
                         <a className="last" title="페이지로 이동">
-                          <span>Beimei Nutritious Rice Cereal</span>
+                          <span>Rice Cereal</span>
                         </a>
                       </Link>
                       <Link href="/en/products/kimcook">
                         <a className="on" title="페이지로 이동">
-                          <span>Cheeki Monki Seaweed Cook</span>
+                          <span>Seaweed Cook</span>
                         </a>
                       </Link>
                       <Link href="/en/products/bagelschip">
                         <a className="last" title="페이지로 이동">
-                          <span>Haus Backen Bagel Chip</span>
+                          <span>Bagel Chip</span>
                         </a>
                       </Link>
                     </div>

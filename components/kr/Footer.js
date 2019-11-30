@@ -27,6 +27,10 @@ import CopyLogo from "../../public/images/copy_logo.gif";
 import CopyCopyright from "../../public/images/copy_copyright.gif";
 import CopyAddress from "../../public/images/copy_address.gif";
 
+import Footer_Icon1 from "../../public/images/footer_icon1.png";
+import Footer_Icon2 from "../../public/images/footer_icon2.png";
+import Footer_Icon3 from "../../public/images/footer_icon3.png";
+
 export default () => {
   return (
     <>
@@ -36,13 +40,30 @@ export default () => {
           <h2>SNS LINK</h2>
           <ul className="Btnsns">
             <li>
-              <a href="#" title="">
-                <img src={CopyF} width="21" height="21" alt="" />
+              <a
+                href="https://blog.naver.com/jeion_korea"
+                title=""
+                target="_blank"
+              >
+                <img src={Footer_Icon3} width="21" height="21" alt="" />
               </a>
             </li>
             <li>
-              <a href="#" title="">
-                <img src={CopyT} width="21" height="21" alt="" />
+              <a
+                href="https://www.instagram.com/jeionfood"
+                title=""
+                target="_blank"
+              >
+                <img src={Footer_Icon2} width="21" height="21" alt="" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://smartstore.naver.com/jeionshop"
+                title=""
+                target="_blank"
+              >
+                <img src={Footer_Icon1} width="21" height="21" alt="" />
               </a>
             </li>
           </ul>

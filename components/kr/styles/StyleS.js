@@ -41,6 +41,7 @@ body {
 #han {font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif !important;}
 #products_content .list_a{padding-top:28%;}
 #products_content .list_a img{width:100%;}
+#products_content p{ font-size: 16px;}
 
 td											{ font-family:"NanumSquare", "Noto Sans","맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
 img										{ margin:0; border:0; vertical-align:top;}
@@ -145,8 +146,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Subelement	.Subtext								{ position:absolute;left:0; top:120px; width:100%; text-align:left; z-index:15;}
 #Subelement	.Subtext	ul							{ margin-left:40px;}
 #Subelement	.Subtext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:20px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px;}
-#Subelement	.Subtext	ul	li	span				{ font-size:15px; display:inline-block; padding:0 15px; line-height:16px; font-weight:700;}
+#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:20px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; text-shadow: 1px 1px 1px gray;}
+#Subelement	.Subtext	ul	li	span				{ font-size:15px; display:inline-block; padding:0 15px; line-height:16px; font-weight:700; text-shadow: 1px 1px 1px gray;}
 
 #MainContents										{ position:relative; float:left; width:1000px; margin:390px 0 0 0; margin-top:390px !important;}
 #Contents												{ width:1000px; height:auto;}
@@ -238,7 +239,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A1000	.list_a	dl	dd	p	strong									{ color:#8baa00}
 .A1000	.list_a	dl	dd:last-child									{ border:0;}
 .A1000	.list_a	.bg1													{ float:right; width:58%; height:130px; background:url(${A1000Img1}) top center no-repeat; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
-.A1000	.list_c	.bg3	img											{ width:100%; height:auto; max-width:300px; margin-bottom: 4%;}
+.A1000	.list_c	.bg3	img											{ width:100%; height:auto; margin-bottom: 4%;}
 .A1000	.list_c	.bg3	ul	li											{ float:left; width:33.3333%; margin-top:20%;}
 .A1000	.list_c	.bg3	ul	li	span									{ width:auto; display:inline-block; text-align:left;}
 .A1000	.list_c	.bg3	.txt1, .txt2									{ margin-left:-70px; font-size:17px;}
@@ -300,7 +301,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A5000	li	dl	dd	ul	li													{ width:100%; margin:0 0 10px 0; padding:0; border-bottom:none; display:inline-block;}
 .A5000	li	dl	dd	ul	li	strong										{ width:15%; color:#5A5046; display:inline-block; float:left;}
 .A5000	li	dl	dd	ul	li	span											{ width:80%; display:inline-block;}
-.A5000	li	dl	dd	ul	li	span	p										{ background:url(${BtnDott}) left 13px no-repeat; padding-left:15px;}
+.A5000	li	dl	dd	ul	li	span	p										{ padding-left:15px;}
 .A5000	.noline															{ border:none; padding-bottom:0; margin-bottom:0;}
 
 .B1100	ul	li																{ padding-bottom:10%;}
@@ -393,6 +394,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 	}
 	#products_content .list_a{padding-top:35%;}
 
+
 	#Suballbg																			{ width:100%; margin:0 auto;}
 	#Suballbg	 .container															{ width:400px; margin:0 auto;}
 	#Suballbg	#Mainheader														{ width:100%; height:55px; border:0;}
@@ -433,8 +435,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 	#Subelement	.Subtext								{ top:0;}
 	#Subelement	.Subtext	ul							{ margin:5% 0 0 0;}
 	#Subelement	.Subtext	ul	li						{ width:110px; height:110px; border:3px solid #fff; }
-	#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:16px; margin:25px 0 4px 0; padding-bottom:4px;}
-	#Subelement	.Subtext	ul	li	span				{ font-size:12px; height:43px; overflow:hidden;}
+	#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:16px; margin:25px 0 4px 0; padding-bottom:4px; text-shadow: 1px 1px 1px gray;}
+	#Subelement	.Subtext	ul	li	span				{ font-size:12px; height:43px; overflow:hidden; text-shadow: 1px 1px 1px gray;}
 	#Subelement	.elementbox	 .Subimg										{ display:none;}
 
 	#MainContents																		{ width:100%; margin:150px 0 0 0 !important;}

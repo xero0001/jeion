@@ -40,7 +40,39 @@ const StyleM = () => (
 
     #sec_title{font-size:30px; line-height:38px; color:rgb(90,80,70); background-color:white;}
     #sec_title span{background-color:white; padding:8px;}
-    
+    #snsbox {
+      position:absolute;
+      top:0px;
+      width:100%;
+    }
+    #snssub{
+      position: relative;
+      width: 1000px;
+      height: 100px;
+      margin: 0 auto;
+      text-align: right;
+    }
+    #snswrapper {
+      position:absolute;
+      justify-content: space-between;
+      right:0px;
+      width: 84px;
+      display:flex;
+      margin-top:6px;
+    }
+    #snswrapper #sns{
+      width: 24px;
+      height: 24px;
+      border-radius:50%;
+    }
+    #snswrapper #sns img {
+      width: 100%;
+      height: 100%;
+    }
+    #sns {
+      position:relative;
+      z-index: 100;
+    }
     .ptr { cursor:pointer;}
     img										{ margin:0; border:0; vertical-align:top;}
     div, dl, span							{ margin:0; padding:0; border:0; }
@@ -169,8 +201,8 @@ const StyleM = () => (
 
 #Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:175px; width:100%; text-align:left; z-index:15;}
 #Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:170px; height:170px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width:80%; font-size:20px; margin:35px 0 10px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; font-weight:900;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size:16px; display:inline-block; padding:0 10px; font-weight: 700;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width:80%; font-size:20px; margin:35px 0 10px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; font-weight:900; text-shadow: 1px 1px 1px gray;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size:16px; display:inline-block; padding:0 10px; font-weight: 700; text-shadow: 1px 1px 1px gray;}
 
 
 #MainWrapper													{ width:1000px;margin:0 auto;text-align:left;z-index:2;}
@@ -252,7 +284,7 @@ const StyleM = () => (
 #Footer    #Copyright	.copybox	.bottommap												{ position:relative; float:right; width:490px; height:148px; margin-top:35px; }
 #Footer    #Copyright  .copybox	.bottommap	.ad1										{ position:relative; float:left; margin-top:10px;}
 #Footer    #Copyright  .copybox	.bottommap	.ad2										{ display:none;}
-#Footer    #Copyright	.Btnsns																		{ position:absolute;right:0;top:-30px; width:80px; height:21px; text-align:right;}
+#Footer    #Copyright	.Btnsns																		{ position:absolute;right:0;top:-30px; width:84px; height:21px; text-align:right;}
 #Footer    #Copyright	.Btnsns		li																{ position:relative; float:right; margin-left:7px;}
 
 
