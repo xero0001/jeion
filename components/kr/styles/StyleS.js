@@ -301,7 +301,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A5000	li	dl	dd	ul	li													{ width:100%; margin:0 0 10px 0; padding:0; border-bottom:none; display:inline-block;}
 .A5000	li	dl	dd	ul	li	strong										{ width:15%; color:#5A5046; display:inline-block; float:left;}
 .A5000	li	dl	dd	ul	li	span											{ width:80%; display:inline-block;}
-.A5000	li	dl	dd	ul	li	span	p										{ padding-left:15px;}
+.A5000	li	dl	dd	ul	li	span	p										{ padding-left:16px; text-indent: -14px;}
+.A5000	li	dl	dd	ul	li	span	p::before						{ content:"-"; margin-right:9px;}
 .A5000	.noline															{ border:none; padding-bottom:0; margin-bottom:0;}
 
 .B1100	ul	li																{ padding-bottom:10%;}
