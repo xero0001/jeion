@@ -200,7 +200,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Footer    #Copyright	.copybox	.bottommap												{ position:relative; float:right; width:490px; height:148px; margin-top:35px; }
 #Footer    #Copyright  .copybox	.bottommap	.ad1										{ position:relative; float:left; margin-top:10px;}
 #Footer    #Copyright  .copybox	.bottommap	.ad2										{ display:none;}
-#Footer    #Copyright	.Btnsns																		{ position:absolute;right:0;top:-30px; width:80px; height:21px; text-align:right;}
+#Footer    #Copyright	.Btnsns																		{ position:absolute;right:0;top:-30px; width:84px; height:21px; text-align:right;}
 #Footer    #Copyright	.Btnsns		li																{ position:relative; float:right; margin-left:7px;}
 
 
