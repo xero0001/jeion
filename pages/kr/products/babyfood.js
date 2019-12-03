@@ -5,7 +5,7 @@ import StyleS from "../../../components/kr/styles/StyleS";
 
 import ProductsBanner from "../../../components/kr/ProductsBanner";
 
-import Img from "../../../public/images/kr/products_babyfood.jpg";
+import Img from "../../../public/images/kr/products_babyfood.jpeg";
 
 export default () => {
   return (

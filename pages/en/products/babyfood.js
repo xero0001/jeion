@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import StyleS from "../../../components/styles/StyleS";
 
-import Img from "../../../public/images/kr/products_babyfood.jpg";
+import Img from "../../../public/images/kr/products_babyfood.jpeg";
 
 import ProductsBanner from "../../../components/ProductsBanner";
 
