@@ -144,8 +144,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Subelement	.Subtext								{ position:absolute;left:0; top:120px; width:100%; text-align:left; z-index:15;}
 #Subelement	.Subtext	ul							{ margin-left:40px;}
 #Subelement	.Subtext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:21px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px;}
-#Subelement	.Subtext	ul	li	span				{ font-size:13px; display:inline-block; padding:0 15px; line-height:14px;}
+#Subelement	.Subtext	ul	li	strong			{ width:80%; font-size:21px; margin:25px 0 7px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; text-shadow: gray 1px 1px 1px;}
+#Subelement	.Subtext	ul	li	span				{ font-size:13px; display:inline-block; padding:0 15px; line-height:14px; text-shadow: gray 1px 1px 1px;}
 
 #MainContents										{ position:relative; float:left; width:1000px; margin:390px 0 0 0; margin-top:390px !important;}
 #Contents												{ width:1000px; height:auto;}
@@ -301,7 +301,8 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A5000	li	dl	dd	ul	li													{ width:100%; margin:0 0 10px 0; padding:0; border-bottom:none; display:inline-block;}
 .A5000	li	dl	dd	ul	li	strong										{ width:15%; color:#5A5046; display:inline-block; float:left;}
 .A5000	li	dl	dd	ul	li	span											{ width:80%; display:inline-block;}
-.A5000	li	dl	dd	ul	li	span	p										{ background:url(${BtnDott}) left 13px no-repeat; padding-left:15px;}
+.A5000	li	dl	dd	ul	li	span	p										{ padding-left:16px; text-indent: -14px;}
+.A5000	li	dl	dd	ul	li	span	p::before						{ content:"-"; margin-right:9px;}
 .A5000	.noline															{ border:none; padding-bottom:0; margin-bottom:0;}
 
 .B1100	ul	li																{ padding-bottom:10%;}
