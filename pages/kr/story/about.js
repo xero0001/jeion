@@ -178,10 +178,8 @@ export default () => {
                         <dt>제이온(J:ON)이란?</dt>
                         <dd>
                           <p>
-                            온전 <span id="han">全</span>에 담겨 있는 온전,
-                            뚜렷함, 순수, 어울림의 JEONBUK을 현대의 On으로
-                            되살려 미래 지향적 가치를 실현하고자 하는
-                            의미입니다.
+                            j:on은 "Join On"의 줄임말로 고객의 비전을 현실로
+                            실현하고자 하는 의미입니다.
                           </p>
                         </dd>
                         <dd className="bg1"></dd>

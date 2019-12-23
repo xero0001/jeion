@@ -16,11 +16,11 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/en/story/history": [
+    "/en": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/story/history": [
+    "/kr/products/noodles": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

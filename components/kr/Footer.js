@@ -130,7 +130,7 @@ export default () => {
                     </dd>
                     <dd>
                       <Link href="/kr/products/babyfood">
-                        <a title="Go to Cookies">쌀이유식 </a>
+                        <a title="Go to Cookies">간편쌀이유식 </a>
                       </Link>
                     </dd>
                     <dd>

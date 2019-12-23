@@ -59,7 +59,7 @@ export default () => {
                       </Link>
                       <Link href="/kr/products/babyfood">
                         <a className="last" title="페이지로 이동">
-                          <span>쌀이유식</span>
+                          <span>간편쌀이유식</span>
                         </a>
                       </Link>
                       <Link href="/kr/products/kimcook">

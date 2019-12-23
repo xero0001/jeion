@@ -139,22 +139,24 @@ export default () => {
                       </a>
                     </span>
                   </li>
-                  <li>
-                    <span>
-                      <a
-                        href="/cn"
-                        target="_blank"
-                        title="새창으로 중문홈페이지로 이동"
-                      >
-                        <img
-                          src={VersionChImg}
-                          width="75"
-                          height="17"
-                          alt="CHINESE"
-                        />
-                      </a>
-                    </span>
-                  </li>
+                  {
+                    // <li>
+                    //   <span>
+                    //     <a
+                    //       href="/cn"
+                    //       target="_blank"
+                    //       title="새창으로 중문홈페이지로 이동"
+                    //     >
+                    //       <img
+                    //         src={VersionChImg}
+                    //         width="75"
+                    //         height="17"
+                    //         alt="CHINESE"
+                    //       />
+                    //     </a>
+                    //   </span>
+                    // </li>
+                  }
                 </ul>
               </dd>
             </dl>

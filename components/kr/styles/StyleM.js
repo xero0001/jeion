@@ -182,14 +182,14 @@ const StyleM = () => (
 
 
 
-
-#Mainvisual																	{  position:absolute;left:0; top:100px; width:100%; height:565px; text-align:center; z-index:10;}
+// 565 -> 386
+#Mainvisual																	{  position:absolute;left:0; top:100px; width:100%; height:386px; text-align:center; z-index:10;}
 #Mainvisual	.elementbox												{ position:relative; width:100%; margin:0 auto; text-align:left;}
-#Mainvisual	.elementbox	.Mainbg									{ position:relative;float:left; width:100%; height:565px; z-index:11;}
-#Mainvisual	.elementbox	.Mainbg	 .imgbox1					{ position:absolute;left:0; top:0; width:100%; height:565px; }
-// #Mainvisual	.elementbox	.Mainbg	 .imgbox2					{ position:absolute;left:0; top:0; width:100%; height:565px; background:url(../img/main/mainbg_02.jpg) center top no-repeat;}
-// #Mainvisual	.elementbox	.Mainbg	 .imgbox3					{ position:absolute;left:0; top:0; width:100%; height:565px; background:url(../img/main/mainbg_03.jpg) center top no-repeat;}
-// #Mainvisual	.elementbox	.Mainbg	 .imgbox4					{ position:absolute;left:0; top:0; width:100%; height:565px; background:url(../img/main/mainbg_04.jpg) center top no-repeat;}
+#Mainvisual	.elementbox	.Mainbg									{ position:relative;float:left; width:100%; height:386px; z-index:11;}
+#Mainvisual	.elementbox	.Mainbg	 .imgbox1					{ position:absolute;left:0; top:0; width:100%; height:386px; background-position: center;}
+// #Mainvisual	.elementbox	.Mainbg	 .imgbox2					{ position:absolute;left:0; top:0; width:100%; height:386px; background:url(../img/main/mainbg_02.jpg) center top no-repeat;}
+// #Mainvisual	.elementbox	.Mainbg	 .imgbox3					{ position:absolute;left:0; top:0; width:100%; height:386px; background:url(../img/main/mainbg_03.jpg) center top no-repeat;}
+// #Mainvisual	.elementbox	.Mainbg	 .imgbox4					{ position:absolute;left:0; top:0; width:100%; height:386px; background:url(../img/main/mainbg_04.jpg) center top no-repeat;}
 
 #Mainvisual	.elementbox	 .ctrl										{ position:relative; width:900px; margin:0 auto; text-align:center; z-index:14;}
 #Mainvisual	.elementbox	 .ctrl	ul									{ position:absolute;left:0; top:290px; width:450px; height:67px;  text-align:left;}
@@ -199,10 +199,22 @@ const StyleM = () => (
 #Mainvisual	.elementbox	 .arrow	 .left							{ position:absolute;left:0; top:0;  width:51px; height:123px;}
 #Mainvisual	.elementbox	 .arrow	 .right						{ position:absolute;right:0; top:0; width:51px; height:123px;}
 
-#Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:175px; width:100%; text-align:left; z-index:15;}
-#Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:170px; height:170px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width:80%; font-size:20px; margin:35px 0 10px 0; display:inline-block; border-bottom:1px solid #eee; padding-bottom:7px; font-weight:900; text-shadow: 1px 1px 1px gray;}
-#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size:16px; display:inline-block; padding:0 10px; font-weight: 700; text-shadow: 1px 1px 1px gray;}
+#Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:120px; width:100%; text-align:left; z-index:15;}
+#Mainvisual	.elementbox	 .Maintext	ul							{ margin-left:40px;}
+#Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width: 80%;
+  font-size: 20px;
+  margin: 25px 0 7px 0;
+  display: inline-block;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 7px;
+  text-shadow: 1px 1px 1px grey;}
+#Mainvisual	.elementbox	 .Maintext	ul	li	span				{ font-size: 15px;
+  display: inline-block;
+  padding: 0 15px;
+  line-height: 16px;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px grey;}
 
 
 #MainWrapper													{ width:1000px;margin:0 auto;text-align:left;z-index:2;}
@@ -210,9 +222,9 @@ const StyleM = () => (
 
 
 
-#MainContents																	{ position:relative; width:100%; height:auto; margin-top:565px; display:inline-block;}
+#MainContents																	{ position:relative; width:100%; height:auto; margin-top:390px; display:inline-block;}
 
-#MainContents	#Section1												{ width:100%; margin-top:90px;}
+#MainContents	#Section1												{ width:100%; margin:7% 0 2% 0; display:inline-block;}
 #MainContents	#Section1	dl	dt										{ width:100%; height:auto; margin-bottom:7%; text-align:center; background:url(${Line}) left center repeat-x;}
 #MainContents	#Section1	dl	dd	ul								{ position:relative; width:100%; margin-bottom:4%; display:inline-block;}
 #MainContents	#Section1	dl	dd	ul	li							{ float:left; width:25%;}
@@ -230,7 +242,7 @@ const StyleM = () => (
 #MainContents	#Section1	.more	a								{ font-size:11px; letter-spacing:0; color:#000; font-weight:bold;}
 
 
-#MainContents	#Section2												{ position:relative;  width:100%; margin:2% 0 7% 0; display:inline-block;}
+#MainContents	#Section2												{ position:relative;  width:100%;  margin-top:90px;}
 #MainContents	#Section2	dl	dt										{ width:100%; height:auto; margin-bottom:7%; text-align:center; background:url(${Line}) left center repeat-x;}
 #MainContents	#Section2	dl	dd	ul	li							{ float:left; width:33.3333%; text-align:center;}
 #MainContents	#Section2	dl	dd	ul	li	p						{ padding-bottom:6%;}

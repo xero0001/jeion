@@ -73,7 +73,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 #Suballbg                                { position:relative;float:left; width:100%;text-align:center; z-index:1;}
 #Suballbg	 .container					{ position:relative; width:1000px; margin:0 auto;}
 #products_content .list_a{padding-top:28%;}
-#products_content .list_a img{width:100%;}
+#products_content .list_a img{width:50%;}
 #products_content p { font-size:16px;}
 
 #Suballbg	#Mainheader														{ position:relative; float:left; width:100%; height:100px; text-align:center; border-bottom:1px solid #dfdfdf; z-index:400;}

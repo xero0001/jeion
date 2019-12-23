@@ -18,7 +18,7 @@ export default () => {
             <div id="Contents">
               <div className="titleroad">
                 <div className="Subtitle">
-                  <h4>쌀이유식</h4>
+                  <h4>간편쌀이유식</h4>
                 </div>
                 <h2>문서 위치</h2>
                 <div className="Position">
@@ -32,7 +32,7 @@ export default () => {
                   &gt;
                   <a href="#Start" title="About ABC Cookies 본문 바로가기">
                     {" "}
-                    <em className="highlight">쌀이유식</em>
+                    <em className="highlight">간편쌀이유식</em>
                   </a>{" "}
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default () => {
                       </Link>
                       <Link href="/kr/products/babyfood">
                         <a className="last on" title="페이지로 이동">
-                          <span>쌀이유식</span>
+                          <span>간편쌀이유식</span>
                         </a>
                       </Link>
                       <Link href="/kr/products/kimcook">

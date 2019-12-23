@@ -97,6 +97,111 @@ const Example = () => (
     <div id="MainWrapper">
       <div id="SubWrapper">
         <div id="MainContents">
+          <div id="Section2">
+            <dl>
+              <dt id="sec_title">
+                <img
+                  src={Section2Title}
+                  width="387"
+                  height="38"
+                  alt="Products and Services"
+                />
+              </dt>
+              <dd>
+                <ul>
+                  <li>
+                    <p>
+                      <img src={Section2Img2} alt="유아국수 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Cheeki Monki Nutritious Baby Noodles</span>
+                      </dt>
+                      <dd>
+                        <Link href="/en/products/noodles">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <p>
+                      <img src={Section2Img3} alt="요거트큐브 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Cheeki Monki Yogurt Cubes</span>
+                      </dt>
+                      <dd>
+                        <Link href="/en/products/yogurt">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                  <li>
+                    <p>
+                      <img src={Section2Img1} alt="간편쌀이유식 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Beimei Nutritious Rice Cereal</span>
+                      </dt>
+                      <dd>
+                        <Link href="/en/products/babyfood">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </dd>
+              <dd>
+                <ul>
+                  <li className="main_padding">
+                    <p>
+                      <img src={Section2Img4} alt="김쿡 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Cheeki Monki Seaweed Cook</span>
+                      </dt>
+                      <dd>
+                        <Link href="/en/products/kimcook">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                  <li className="main_padding">
+                    <p>
+                      <img src={Section2Img6} alt="베이글칩 이미지" />
+                    </p>
+                    <dl>
+                      <dt>
+                        <span>Haus Backen Bagel Chip</span>
+                      </dt>
+                      <dd>
+                        <Link href="/en/products/bagelschip">
+                          <a title=" 페이지로 이동" className="btn">
+                            Read More
+                          </a>
+                        </Link>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+          </div>
           <div id="Section1">
             <dl>
               <dt>
@@ -202,180 +307,6 @@ const Example = () => (
                     </dl>
                   </li>
                 </ul>
-              </dd>
-            </dl>
-          </div>
-          <div id="Section2">
-            <dl>
-              <dt id="sec_title">
-                <img
-                  src={Section2Title}
-                  width="387"
-                  height="38"
-                  alt="Products and Services"
-                />
-              </dt>
-              <dd>
-                <ul>
-                  <li>
-                    <p>
-                      <img src={Section2Img2} alt="유아국수 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>Cheeki Monki Nutritious Baby Noodles</span>
-                      </dt>
-                      <dd>
-                        <Link href="/en/products/noodles">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                  <li>
-                    <p>
-                      <img src={Section2Img3} alt="요거트큐브 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>Cheeki Monki Yogurt Cubes</span>
-                      </dt>
-                      <dd>
-                        <Link href="/en/products/yogurt">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                  <li>
-                    <p>
-                      <img src={Section2Img1} alt="쌀이유식 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>Beimei Nutritious Rice Cereal</span>
-                      </dt>
-                      <dd>
-                        <Link href="/en/products/babyfood">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                </ul>
-              </dd>
-              <dd>
-                <ul>
-                  <li className="main_padding">
-                    <p>
-                      <img src={Section2Img4} alt="김쿡 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>Cheeki Monki Seaweed Cook</span>
-                      </dt>
-                      <dd>
-                        <Link href="/en/products/kimcook">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                  <li className="main_padding">
-                    <p>
-                      <img src={Section2Img6} alt="베이글칩 이미지" />
-                    </p>
-                    <dl>
-                      <dt>
-                        <span>Haus Backen Bagel Chip</span>
-                      </dt>
-                      <dd>
-                        <Link href="/en/products/bagelschip">
-                          <a title=" 페이지로 이동" className="btn">
-                            Read More
-                          </a>
-                        </Link>
-                      </dd>
-                    </dl>
-                  </li>
-                </ul>
-              </dd>
-            </dl>
-          </div>
-          <div id="Section3">
-            <dl>
-              <dt>
-                <img
-                  src={Section3Title}
-                  width="201"
-                  height="33"
-                  alt="About J:ON"
-                />
-              </dt>
-              <dd className="banner">
-                <ul>
-                  <li>
-                    <Link href="/en/story/message">
-                      <a title="CEO’s Message 페이지로 이동">
-                        <img
-                          src={Section3Ban1}
-                          alt="CEO’s Message  페이지로 이동"
-                        />
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </dd>
-
-              <dd className="Notice">
-                <dl>
-                  <dt>
-                    <img src={Section3Sub} alt="News &amp; Notice" />
-                  </dt>
-                  <dd>
-                    <ul>
-                      <li>
-                        <dl>
-                          <dt>
-                            <Link href="/en/contact/post/1">
-                              <a>CEO's Message</a>
-                            </Link>
-                          </dt>
-                          <dd>
-                            <Link href="/en/contact/post/1">
-                              <a>
-                                J:ON is a company that tries to create the
-                                highest value for all mothers under the motto,
-                                “Every possible need for mothers and children.”
-                              </a>
-                            </Link>
-                          </dd>
-                          <dd className="data">2019.11.23</dd>
-                        </dl>
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-                <p>
-                  <Link href="/en/contact/notice">
-                    <a title="공지사항 게시판으로 이동">
-                      <img
-                        src={Section3More}
-                        width="22"
-                        height="21"
-                        alt="MORE"
-                      />
-                    </a>
-                  </Link>
-                </p>
               </dd>
             </dl>
           </div>

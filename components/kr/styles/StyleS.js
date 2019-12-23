@@ -40,7 +40,7 @@ body {
 #A3000_dt { font-size: 32px; font-weight:500;}
 #han {font-family:"맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif !important;}
 #products_content .list_a{padding-top:28%;}
-#products_content .list_a img{width:100%;}
+#products_content .list_a img{width:50%;}
 #products_content p{ font-size: 16px;}
 
 td											{ font-family:"NanumSquare", "Noto Sans","맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
@@ -315,6 +315,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .B1100	.tbox	.tb_normal th											{ word-break:break-all; text-align:center; padding:10px; border:1px solid #dbdee6; border-collapse:collapse; background:#F7FAFD; color:#002f59;}
 .B1100	.tbox	.tb_normal td											{ word-break:break-all; text-align:center; padding:5px; border:0; border-collapse:collapse; letter-spacing:0;}
 .B1100	.tbox	.tb_normal td	img									{ vertical-align:middle;}
+
 
 .B1200	.imgbox															{ width:100%; display:inline-block; text-align:center;}
 .B1200	.imgbox	img													{ width:80%; height:auto;}

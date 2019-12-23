@@ -139,22 +139,24 @@ export default () => {
                       </a>
                     </span>
                   </li>
-                  <li>
-                    <span>
-                      <a
-                        href="/cn"
-                        target="_blank"
-                        title="새창으로 중문홈페이지로 이동"
-                      >
-                        <img
-                          src={VersionChImg}
-                          width="75"
-                          height="17"
-                          alt="CHINESE"
-                        />
-                      </a>
-                    </span>
-                  </li>
+                  {
+                    // <li>
+                    //   <span>
+                    //     <a
+                    //       href="/cn"
+                    //       target="_blank"
+                    //       title="새창으로 중문홈페이지로 이동"
+                    //     >
+                    //       <img
+                    //         src={VersionChImg}
+                    //         width="75"
+                    //         height="17"
+                    //         alt="CHINESE"
+                    //       />
+                    //     </a>
+                    //   </span>
+                    // </li>
+                  }
                 </ul>
               </dd>
             </dl>
@@ -325,7 +327,7 @@ export default () => {
                           </li>
                           <li>
                             <Link href="/kr/products/babyfood">
-                              <a title="Yogurt 메뉴로 이동">쌀이유식</a>
+                              <a title="Yogurt 메뉴로 이동">간편쌀이유식</a>
                             </Link>
                           </li>
                           <li>
