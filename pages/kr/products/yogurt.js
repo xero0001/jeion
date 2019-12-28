@@ -7,6 +7,7 @@ import Link from "next/link";
 import StyleS from "../../../components/kr/styles/StyleS";
 
 import Img from "../../../public/images/kr/products_yogurt.jpg";
+import Img2 from "../../../public/images/kr/yogurt_cube.jpeg";
 
 import ProductsBanner from "../../../components/kr/ProductsBanner";
 
@@ -78,6 +79,9 @@ export default () => {
                         <dl>
                           <dd>
                             <img src={Img} />
+                          </dd>
+                          <dd>
+                            <img id="yimg2" src={Img2} />
                           </dd>
                         </dl>
                       </li>

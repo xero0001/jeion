@@ -64,6 +64,8 @@ const Example = () => (
           <li className="imgbox3" styledd="display:none;"></li>
         </ul>
         <div className="Maintext">
+          <div className="title">스마일 케어</div>
+          <div className="subTitle">Smile Care</div>
           <div className="container">
             <ul>
               <li>

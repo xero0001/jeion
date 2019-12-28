@@ -149,7 +149,7 @@ const Example = () => (
                     </p>
                     <dl>
                       <dt>
-                        <span>Beimei Nutritious Rice Cereal</span>
+                        <span>Cheeki Monki Nutritious Rice Cereal</span>
                       </dt>
                       <dd>
                         <Link href="/en/products/babyfood">

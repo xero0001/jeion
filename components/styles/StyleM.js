@@ -199,7 +199,11 @@ const StyleM = () => (
   padding: 0 15px;
   line-height: 14px;
   text-shadow: grey 1px 1px 1px;}
-
+#Mainvisual .elementbox .Maintext .title {
+  width: 100%;
+  text-align:center;
+  color: white;
+}
 
 #MainWrapper													{ width:1000px;margin:0 auto;text-align:left;z-index:2;}
 #SubWrapper														{ float:left; width:100%; z-index:3;}

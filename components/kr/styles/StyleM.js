@@ -199,8 +199,8 @@ const StyleM = () => (
 #Mainvisual	.elementbox	 .arrow	 .left							{ position:absolute;left:0; top:0;  width:51px; height:123px;}
 #Mainvisual	.elementbox	 .arrow	 .right						{ position:absolute;right:0; top:0; width:51px; height:123px;}
 
-#Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:120px; width:100%; text-align:left; z-index:15;}
-#Mainvisual	.elementbox	 .Maintext	ul							{ margin-left:40px;}
+#Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:65px; width:100%; text-align:left; z-index:15;}
+#Mainvisual	.elementbox	 .Maintext  ul						{ width: 60%; display:flex; justify-content:space-between; margin:auto; margin-top:10px;}
 #Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
 #Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width: 80%;
   font-size: 20px;
@@ -215,6 +215,19 @@ const StyleM = () => (
   line-height: 16px;
   font-weight: 700;
   text-shadow: 1px 1px 1px grey;}
+  #Mainvisual .elementbox .Maintext .title {
+    width: 100%;
+    text-align:center;
+    color: white;
+    font-size: 40px;
+  }
+  #Mainvisual .elementbox .Maintext .subTitle {
+    width: 100%;
+    text-align:center;
+    color: white;
+    font-size: 30px;
+    margin-bottom:10px;
+  }
 
 
 #MainWrapper													{ width:1000px;margin:0 auto;text-align:left;z-index:2;}
@@ -353,7 +366,8 @@ const StyleM = () => (
 // #Mainvisual	.elementbox	.Mainbg	 .imgbox4							{ height:200px; background:url(../img/main/mainbg_04.jpg) center top no-repeat;background-size:cover; -webkit-background-size: cover;  -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
 #Mainvisual	.elementbox	 .ctrl													{ display:none;}
 #Mainvisual	.elementbox	 .arrow												{ display:none;}
-*#Mainvisual	.elementbox	 .Maintext											{ top:20%;}
+#Mainvisual	.elementbox	 .Maintext											{ top:20%;}
+
 #Mainvisual	.elementbox	 .Maintext	ul	li									{ float:left; width:130px; height:130px; margin-right:10px;}
 #Mainvisual	.elementbox	 .Maintext	ul	li	strong						{ font-size:16px; margin:20px 0 10px 0; padding-bottom:7px;}
 #Mainvisual	.elementbox	 .Maintext	ul	li	span							{ font-size:12px; line-height:15px;}

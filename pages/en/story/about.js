@@ -175,10 +175,10 @@ export default () => {
                         <dt>What is J:ON?</dt>
                         <dd>
                           <p>
-                            <strong>"Jeon"</strong> from{" "}
-                            <strong>"Onjeon"</strong>contains the meaning of
-                            wholeness, clarity, purity, and harmony of JEONBUK,
-                            and modern "On" evokes its futuristic values.
+                            <strong>"J:on"</strong> is a compressed word from
+                            <strong>"Join On"</strong> which means link and
+                            connect. It contains the meanings we connect our
+                            customer’s vision to reality.
                             <br />
                           </p>
                         </dd>
@@ -190,7 +190,6 @@ export default () => {
                       <dl>
                         <dt>C I</dt>
                         <dd className="PB30">
-                          {" "}
                           Having its motif in "flag," we are striving to become
                           a company remembered by consumers with our products
                           that have more values and impression than ordinary

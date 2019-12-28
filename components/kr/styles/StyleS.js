@@ -42,6 +42,7 @@ body {
 #products_content .list_a{padding-top:28%;}
 #products_content .list_a img{width:50%;}
 #products_content p{ font-size: 16px;}
+#yimg2 {width: 100% !important;}
 
 td											{ font-family:"NanumSquare", "Noto Sans","맑은고딕",Malgun Gothic,"나눔고딕",Nanum Gothic,"돋움",dotum,AppleGothic,sans-serif;}
 img										{ margin:0; border:0; vertical-align:top;}
@@ -235,7 +236,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A1000	li:last-child														{ padding-bottom:0;}
 .A1000	li	dl	dt															{ font-size:30px; padding-bottom:60px; margin-bottom:20px; color:#5A5046; text-align:center; background:url(${BtnLine}) center bottom no-repeat; letter-spacing:-2px;}
 .A1000	.list_a	dl	dd													{ float:left; width:38%; height:130px; border-left:5px solid #F2F2F2;}
-.A1000	.list_a	dl	dd	p												{ padding:0 10px 0 20px; text-align:left;}
+.A1000	.list_a	dl	dd	p												{ padding:0 10px 0 20px; text-align:left; font-size:16px;}
 .A1000	.list_a	dl	dd	p	strong									{ color:#8baa00}
 .A1000	.list_a	dl	dd:last-child									{ border:0;}
 .A1000	.list_a	.bg1													{ float:right; width:58%; height:130px; background:url(${A1000Img1}) top center no-repeat; background-size:cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;  background-size: cover;}
@@ -244,7 +245,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 .A1000	.list_c	.bg3	ul	li	span									{ width:auto; display:inline-block; text-align:left;}
 .A1000	.list_c	.bg3	.txt1, .txt2									{ margin-left:-70px; font-size:17px;}
 .A1000	.list_c	.bg3	.txt3											{ margin-left:45px; font-size:17px; text-align:center;}
-
+.PB30 { font-size:16px;}
 
 
 .A2000	.li_st1	dl	dt													{ font-size:30px; padding-bottom:60px; margin-bottom:20px; color:#5A5046; text-align:center; background:url(${BtnLine}) center bottom no-repeat; letter-spacing:-2px;}

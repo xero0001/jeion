@@ -24,23 +24,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/products/babyfood": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/kr/products/kimcook": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/kr/products/noodles": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/kr/story/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
