@@ -235,6 +235,7 @@ export default () => {
                                   국가식품클러스터 입주 (소재가공 및 패키징
                                   라인)
                                 </p>
+                                <p>중국 영유아를 위한 synbiotic 식품의 개발</p>
                               </span>
                             </li>
                           </ul>

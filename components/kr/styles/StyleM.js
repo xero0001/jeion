@@ -200,7 +200,7 @@ const StyleM = () => (
 #Mainvisual	.elementbox	 .arrow	 .right						{ position:absolute;right:0; top:0; width:51px; height:123px;}
 
 #Mainvisual	.elementbox	 .Maintext								{ position:absolute;left:0; top:65px; width:100%; text-align:left; z-index:15;}
-#Mainvisual	.elementbox	 .Maintext  ul						{ width: 60%; display:flex; justify-content:space-between; margin:auto; margin-top:10px;}
+#Mainvisual	.elementbox	 .Maintext  ul						{ width: 90%; margin:auto; margin-top:10px;}
 #Mainvisual	.elementbox	 .Maintext	ul	li						{ float:left; width:140px; height:140px; border:4px solid #fff; margin-right:10px; border-radius:100px; text-align:center; color:#fff;}
 #Mainvisual	.elementbox	 .Maintext	ul	li	strong			{ width: 80%;
   font-size: 20px;
@@ -216,17 +216,22 @@ const StyleM = () => (
   font-weight: 700;
   text-shadow: 1px 1px 1px grey;}
   #Mainvisual .elementbox .Maintext .title {
-    width: 100%;
+    width: 570px;
     text-align:center;
     color: white;
     font-size: 40px;
   }
   #Mainvisual .elementbox .Maintext .subTitle {
-    width: 100%;
+    width: 570px;
     text-align:center;
     color: white;
     font-size: 30px;
     margin-bottom:10px;
+  }
+
+  #Mainvisual .elementbox .Maintext .titleWrap {
+    width: 1000px;
+    margin:auto;
   }
 
 

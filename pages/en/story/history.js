@@ -243,8 +243,16 @@ export default () => {
                               <strong>Mar. 2018</strong>{" "}
                               <span>
                                 <p>
-                                  Moved into national food cluster (Material
+                                  Moved into national food polis (Material
                                   processing and packaging line)
+                                </p>
+                                <p>
+                                  Development of synbiotic food targeting on
+                                  chinese infants
+                                </p>
+                                <p>
+                                  Acquired Chinese GB certification (4 kinds of
+                                  Rice Cereal)
                                 </p>
                               </span>
                             </li>
@@ -267,7 +275,7 @@ export default () => {
                               </span>
                             </li>
                             <li>
-                              <strong>July 2017</strong>{" "}
+                              <strong>Jul. 2017</strong>{" "}
                               <span>
                                 <p>Certified as venture business </p>
                               </span>
@@ -398,7 +406,7 @@ export default () => {
                               </span>
                             </li>
                             <li>
-                              <strong>Sept. 2013</strong>{" "}
+                              <strong>Sep. 2013</strong>{" "}
                               <span>
                                 <p>
                                   Established company (Sept. 11, JEION Co.,
