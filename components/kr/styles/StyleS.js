@@ -397,7 +397,9 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 	}
 	#products_content .list_a{padding-top:35%;}
 
-
+	.Btnsns img {
+		width: 20px;
+	}
 	#Suballbg																			{ width:100%; margin:0 auto;}
 	#Suballbg	 .container															{ width:400px; margin:0 auto;}
 	#Suballbg	#Mainheader														{ width:100%; height:55px; border:0;}

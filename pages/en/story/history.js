@@ -19,6 +19,7 @@ import SubMenuA3000E from "../../../public/images/submenu_A3000e.gif";
 import SubMenuA4000E from "../../../public/images/submenu_A4000e.gif";
 import SubMenuA5000E from "../../../public/images/submenu_A5000e.gif";
 import SubMenuA6000E from "../../../public/images/submenu_A6000e.gif";
+import history from "../../../public/images/jeonhistory.jpg";
 
 import A50002015 from "../../../public/images/A5000_2015.jpg";
 import A50002014 from "../../../public/images/A5000_2014.jpg";
@@ -169,8 +170,10 @@ export default () => {
                     </ul>
                   </div>
                 </div>
-
-                <div className="contentsbox">
+                <div className="historyPC">
+                  <img src={history} style={{ width: "100%" }} />
+                </div>
+                <div className="contentsbox historyMobile">
                   <ul className="A5000">
                     <li>
                       <dl>

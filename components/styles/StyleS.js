@@ -35,7 +35,10 @@ body {
       font-family:"Noto Sans",sans-serif;
       width:100%;
 	  overflow-y:scroll;  overflow-x:hidden;
-}
+}.historyMobile {display:none;}
+.historyPC {display:block;}
+.historyMobile {display:none;}
+.historyPC {display:block;}
 
 .notice_li {display:flex; position:relative; margin-top:16px; min-height: 300px;}
 td											{ font-family:"Noto Sans",sans-serif;}
@@ -391,6 +394,13 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 	.A5000 li dl dt{
 		font-size:20px;
 	}
+
+	.Btnsns img{
+		width: 20px;
+	}
+
+	.historyMobile {display:block;}
+	.historyPC {display:none;}
 	
 	#Suballbg																			{ width:100%; margin:0 auto;}
 	#Suballbg	 .container															{ width:400px; margin:0 auto;}
