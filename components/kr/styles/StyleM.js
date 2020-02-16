@@ -1098,6 +1098,61 @@ const StyleM = () => (
       }
 
       @media all and (max-width: 800px) {
+        .mask {
+          display: block;
+          width: 0px;
+        }
+        .mask.show {
+          display: block;
+        }
+        .mask #open_side {
+          width: 0%;
+          overflow: hidden;
+          background-color: rgba(0, 0, 0, 0);
+        }
+        .mask.show #open_side {
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.4);
+          transition: all ease 0.2s;
+        }
+        #open_side .gnb1,
+        #open_side .gnb2,
+        #open_side .gnb3 {
+          min-height: 40px;
+          height: auto;
+        }
+        .mobsub {
+          color: #ccc;
+          display: inline-block;
+          padding: 10px 15px 10px 10px;
+          width: 90%;
+          font-size: 14px;
+          line-height: 20px;
+          transition: all ease 0.2s;
+        }
+        .mobsub.active {
+          background-color: rgb(181, 211, 77);
+          color: white;
+        }
+        .gnbActive .sub {
+          display: block;
+          height: 0px;
+          overflow: hidden;
+          transition: all ease 0.2s;
+        }
+        .gnbActive.gnb1 .sub.active {
+          display: block;
+          height: 209px;
+        }
+        .gnbActive.gnb2 .sub.active {
+          display: block;
+          height: 174px;
+        }
+        .gnbActive.gnb3 .sub.active {
+          display: block;
+          height: 69px;
+        }
+
         .titleWrap {
           display: none;
         }
@@ -1246,6 +1301,17 @@ const StyleM = () => (
           font-size: 11px;
           letter-spacing: 0;
         }
+        #open_side .m_topmenu span {
+          box-sizing: border-box;
+          background: #222 url(../img/line.jpg) no-repeat right center;
+          display: inline-block;
+          color: #ccc;
+          line-height: 40px;
+          float: left;
+          text-align: center;
+          font-size: 11px;
+          letter-spacing: 0;
+        }
         #open_side .m_topmenu a:first-of-type {
           width: 30%;
         }
@@ -1253,8 +1319,13 @@ const StyleM = () => (
           width: 30%;
         }
         #open_side .m_topmenu a:last-child {
+          width: 30%;
+          background: #222;
+        }
+        #open_side .m_topmenu span {
           width: 40%;
           background: #222;
+          height: 40px;
         }
 
         #Mainallbg #Mainheader #open_side {

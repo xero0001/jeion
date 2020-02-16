@@ -24,7 +24,27 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/products/noodles": [
+    "/kr/contact/notice": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kr/products/bagelschip": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kr/products/kimcook": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kr/products/yogurt": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/kr/story/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
