@@ -1098,6 +1098,13 @@ const StyleM = () => (
       }
 
       @media all and (max-width: 800px) {
+        .titleWrap {
+          display: none;
+        }
+        #snsbox {
+          display: none;
+        }
+
         #sec_title {
           font-size: 20px;
           line-height: 24px;
@@ -1296,8 +1303,8 @@ const StyleM = () => (
 
         #Mainvisual .elementbox .Maintext ul li {
           float: left;
-          width: 130px;
-          height: 130px;
+          width: 110px;
+          height: 110px;
           margin-right: 10px;
         }
         #Mainvisual .elementbox .Maintext ul li strong {
@@ -1496,6 +1503,9 @@ const StyleM = () => (
       }
 
       @media all and (max-width: 400px) {
+        #snsbox {
+          display: none;
+        }
         .btn_side i {
           margin: 15px 0 0 10px;
         }
@@ -1590,6 +1600,7 @@ const StyleM = () => (
         #MainContents #Section1 dl dd ul li:nth-of-type(1),
         #MainContents #Section1 dl dd ul li:nth-of-type(2) {
           margin-bottom: 15px;
+          min-height: 215px;
         }
         #MainContents #Section1 dl dd ul li:nth-of-type(3) dt {
           margin-bottom: 10px;
