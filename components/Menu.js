@@ -41,6 +41,9 @@ export default () => {
 
   const [language, setLanguage] = React.useState("noshow");
 
+  const [sideMenu, setSideMenu] = React.useState(false);
+  const [subSideMenu, setSubSideMenu] = React.useState(0);
+
   const handleMenu = () => {
     if (language === "noshow") {
       setLanguage("show");
@@ -455,8 +458,314 @@ export default () => {
           </div>
         </div>
         <a className="btn_side" href="#">
-          <i>주요 서비스 메뉴 펼치기</i>
+          <i onClick={() => setSideMenu(true)}>주요 서비스 메뉴 펼치기</i>
         </a>
+        <nav className={sideMenu ? "mask show" : "mask"}>
+          <div id="open_side" style={{ left: "0px" }}>
+            <div className="side_gnb" id="side_Gnb">
+              <div
+                className="btn_side"
+                style={{ cursor: "pointer" }}
+                onClick={() => setSideMenu(false)}
+              >
+                <div>
+                  <div
+                    style={{
+                      width: "24px",
+                      height: "2px",
+                      top: "18px",
+                      left: "7px",
+                      position: "absolute",
+                      backgroundColor: "rgb(120,120,120)",
+                      transform: "rotate(135deg)",
+                      borderRadius: "2px"
+                    }}
+                  ></div>
+                  <div
+                    style={{
+                      width: "24px",
+                      height: "2px",
+                      top: "18px",
+                      left: "7px",
+                      position: "absolute",
+                      backgroundColor: "rgb(120,120,120)",
+                      transform: "rotate(45deg)",
+                      borderRadius: "2px"
+                    }}
+                  ></div>
+                </div>
+              </div>
+              <div className="m_topmenu">
+                <Link href="/">
+                  <a
+                    onClick={() => {
+                      setSubSideMenu(0);
+                      setSideMenu(false);
+                    }}
+                  >
+                    Main
+                  </a>
+                </Link>
+                <span>
+                  <div style={{ height: "1px", width: "1px" }}></div>
+                </span>
+                <Link href="/">
+                  <a
+                    onClick={() => {
+                      setSubSideMenu(0);
+                      setSideMenu(false);
+                    }}
+                  >
+                    Korean
+                  </a>
+                </Link>
+                {
+                  // <a href="/cn" target="_self">
+                  //   Chinese
+                  // </a>
+                }
+              </div>
+              <h2>메인메뉴</h2>
+              <ul style={{ marginTop: "40px" }}>
+                <li className="gnb1 gnbActive">
+                  <div
+                    title="Our Story 메뉴로 이동"
+                    className={subSideMenu === 1 ? "mobsub active" : "mobsub"}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (subSideMenu === 1) {
+                        setSubSideMenu(0);
+                      } else {
+                        setSubSideMenu(1);
+                      }
+                    }}
+                  >
+                    OUR STORY
+                  </div>
+                  <div className={subSideMenu === 1 ? "sub active" : "sub"}>
+                    <div className="subbg">
+                      <ul>
+                        <li>
+                          <Link href="/en/story/about">
+                            <a
+                              title="About J:on 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              About J:on
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/story/vision">
+                            <a
+                              title="Our Visions 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Our Vision
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/story/message">
+                            <a
+                              title="Message 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              CEO's Message
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/story/philosophy">
+                            <a
+                              title="Philosophy 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Management Philosophy
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/story/history">
+                            <a
+                              title="History 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Our History
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/story/location">
+                            <a
+                              title="Location 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Location
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="gnb2 gnbActive">
+                  <div
+                    title="Our Products 메뉴로 이동"
+                    className={subSideMenu === 2 ? "mobsub active" : "mobsub"}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (subSideMenu === 2) {
+                        setSubSideMenu(0);
+                      } else {
+                        setSubSideMenu(2);
+                      }
+                    }}
+                  >
+                    OUR PRODUCTS
+                  </div>
+                  <div className={subSideMenu === 2 ? "sub active" : "sub"}>
+                    <div className="subbg">
+                      <ul>
+                        <li>
+                          <Link href="/en/products/noodles">
+                            <a
+                              title="Noodles 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Nutritious Baby Noodles
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/products/yogurt">
+                            <a
+                              title="Yogurt 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Yogurt Cubes
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/products/babyfood">
+                            <a
+                              title="Babyfood 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Rice Cereal
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/products/kimcook">
+                            <a
+                              title="Cook 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Seaweed Cook
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/products/bagelschip">
+                            <a
+                              title="Chips 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Bagel Chip
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li className="gnb3 gnbActive">
+                  <div
+                    title="Contact Us 메뉴로 이동"
+                    className={subSideMenu === 3 ? "mobsub active" : "mobsub"}
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      if (subSideMenu === 3) {
+                        setSubSideMenu(0);
+                      } else {
+                        setSubSideMenu(3);
+                      }
+                    }}
+                  >
+                    CONTACT
+                  </div>
+                  <div className={subSideMenu === 3 ? "sub active" : "sub"}>
+                    <div className="subbg">
+                      <ul>
+                        <li>
+                          <Link href="/en/contact/notice">
+                            <a
+                              title="Notice 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Notice
+                            </a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/en/contact/contact">
+                            <a
+                              title="Contact 메뉴로 이동"
+                              onClick={() => {
+                                setSubSideMenu(0);
+                                setSideMenu(false);
+                              }}
+                            >
+                              Contact
+                            </a>
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </>
   );

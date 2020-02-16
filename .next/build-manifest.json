@@ -4,10 +4,6 @@
     "static/development/dll/dll_cc672af841a34c4c2e0f.js.map"
   ],
   "pages": {
-    "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/_app": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -20,27 +16,19 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/index": [
+    "/en": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/contact/notice": [
+    "/en/contact/notice": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/products/bagelschip": [
+    "/en/products/noodles": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/kr/products/kimcook": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/kr/products/yogurt": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/kr/story/about": [
+    "/en/story/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
