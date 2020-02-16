@@ -709,7 +709,7 @@ div.skipNav							{ overflow:hidden;visibility:hidden;font-size:0;width:0;height
 
 	.A5000	li	dl	dd	ul	li										{ background:none; line-height:18px;}
 	.A5000	li	dl	dt	 img										{ width:65%; height:auto; padding-top:5px;}
-	.A5000	li	dl	dd	ul	li	span	p							{ background:url(${BtnDott}) left 9px no-repeat;}
+	.A5000	li	dl	dd	ul	li	span	p							{ }
 
 	.B1100	ul	li	dl	dt									{ font-size:18px; padding-bottom:30px; margin-bottom:10px; background:url(../img/btn_line_m.gif) center bottom no-repeat; }
 	.B1100	ul	li	dl	dt	 span						{ font-size:16px; padding:3px 7px 5px 7px;}
